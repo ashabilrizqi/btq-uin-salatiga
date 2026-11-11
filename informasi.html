@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Informasi | BTQ UIN Salatiga</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="css/informasi.css" />
+</head>
+
+<body>
+
+  <!-- ! Navbar Section -->
+  <header>
+    <nav class="nav-container">
+      <a href="./index.html" class="nav-brand">
+        <img src="./img/uin-logo.png" alt="Logo UIN Salatiga" />
+        <span class="brand-title">BTQ UIN Salatiga</span>
+      </a>
+
+      <div class="nav-menu">
+        <a href="./index.html">Beranda</a>
+        <a href="./materi.html">Materi</a>
+        <a href="./informasi.html" class="active">Informasi</a>
+      </div>
+
+      <button class="menu-toggle" id="menu-toggle" type="button">
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+      </button>
+    </nav>
+
+    <div class="nav-mobile" id="menu-mobile">
+      <a href="./index.html">Beranda</a>
+      <a href="./materi.html">Materi</a>
+      <a href="./informasi.html" class="active">Informasi</a>
+    </div>
+  </header>
+  <!-- ! Navbar Section End -->
+
+  <!-- ! Main Content -->
+  <main class="main-content">
+
+    <!-- ! Jadwal Pembelajaran -->
+    <section class="info-section" id="jadwal">
+      <div class="info-container">
+        <h1 class="section-title">Jadwal Pembelajaran</h1>
+
+        <div class="table-wrapper">
+          <table class="schedule-table">
+            <thead>
+              <tr>
+                <th>Hari</th>
+                <th>Jam</th>
+                <th>Kelas</th>
+                <th>Pengajar</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Senin</td>
+                <td>16:00 - 17:30</td>
+                <td>Dasar</td>
+                <td>Ustadz Yono</td>
+              </tr>
+              <tr>
+                <td>Sabtu</td>
+                <td>07:30 - 09:00</td>
+                <td>Lanjutan</td>
+                <td>Ustadz Ali</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </section>
+    <!-- ! Jadwal Pembelajaran End -->
+
+    <!-- ! Pengumuman & Panduan -->
+    <section class="info-section bg-alt">
+      <div class="info-container">
+        <h1 class="section-title">Pengumuman & Panduan</h1>
+
+        <div class="info-cards-grid">
+
+          <!-- ! Kiri: Pengumuman -->
+          <div class="info-card">
+            <div>
+              <div class="card-icon-header">
+                <h3 class="info-card-title">Pengumuman</h3>
+              </div>
+              <span class="announcement-date">20 Oktober 2026</span>
+              <p class="announcement-subtitle">Pendaftaran Mentoring BTQ Gelombang II Telah Dibuka
+              </p>
+            </div>
+          </div>
+
+          <!-- ! Kanan: Panduan -->
+          <div class="info-card">
+            <div>
+              <div class="card-icon-header">
+                <h3 class="info-card-title">Panduan</h3>
+              </div>
+              <p class="download-subtitle">Silahkan Unduh panduan akademik lengkap dibawah ini.</p>
+            </div>
+            <a href="#" class="btn-download" download>
+              <i class="fa-solid fa-download"></i> Unduh Panduan PDF
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- ! Pengumuman & Panduan End -->
+
+
+    <!-- ! FAQ (Pertanyaan Umum) -->
+    <section class="info-section">
+      <div class="info-container">
+        <h2 class="section-title">FAQ (Pertanyaan Umum)</h2>
+
+        <div class="faq-accordion">
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Apakah sertifikat BTQ menjadi syarat wajib untuk wisuda?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Ya, sertifikat kelulusan BTQ merupakan salah satu syarat wajib
+                kelengkapan berkas akademik untuk mendaftar ujian munaqosah atau wisuda di UIN Salatiga.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Bagaimana jika jadwal mentoring bertabrakan dengan jam kuliah reguler?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Anda dapat mengajukan permohonan pindah kelompok atau berkonsultasi dengan
+                mentor pendamping agar dicarikan jadwal pengganti yang sesuai
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Siapa yang harus dihubungi jika terjadi kendala teknis pada web ini?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Silakan hubungi bagian Customer Service atau admin Ma'had Al-Jami'ah
+                UIN Salatiga melalui nomor WhatsApp yang tertera di menu kontak.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- ! FAQ (Pertanyaan Umum) End -->
+
+  </main>
+  <!-- ! Main Content End -->
+
+
+  <!-- ! Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <span class="footer-copy">&copy; 2026 BTQ UIN Salatiga. All rights reserved.</span>
+
+      <span class="footer-separator">|</span>
+
+      <div class="footer-socials">
+        <a href="https://instagram.com" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://youtube.com" target="_blank">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="https://whatsapp.com" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <!-- ! Footer End -->
+
+  <script src="js/informasi.js"></script>
+</body>
+
+</html>

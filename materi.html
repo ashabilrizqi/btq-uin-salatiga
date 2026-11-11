@@ -1,0 +1,1663 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Materi | BTQ UIN Salatiga</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/materi.css">
+</head>
+
+<body>
+
+  <!-- ! Navbar -->
+  <header>
+    <nav class="nav-container">
+      <a href="./index.html" class="nav-brand"> <img src="./img/uin-logo.png" alt="Logo UIN Salatiga"> <span
+          class="brand-title">BTQ
+          UIN Salatiga</span> </a>
+      <div class="nav-menu"><a href="./index.html">Beranda</a> <a href="./materi.html" class="active">Materi</a> <a
+          href="./informasi.html">Informasi</a></div>
+      <button class="menu-toggle" id="menu-toggle" type="button"> <i class="fa-solid fa-bars" id="menu-icon"></i>
+      </button>
+    </nav>
+    <div class="nav-mobile" id="menu-mobile">
+      <a href="./index.html">Beranda</a> <a href="./materi.html" class="active">Materi</a> <a
+        href="./informasi.html">Informasi</a>
+    </div>
+  </header>
+  <!-- ! Navbar End -->
+
+  <!-- ! Documentation Layout -->
+  <div class="doc-layout">
+
+    <!-- ! Sidebar -->
+    <aside class="doc-sidebar">
+      <div class="sidebar-wrapper">
+        <h2 class="sidebar-title">Daftar Materi BTQ</h2>
+        <!-- ! Pendahuluan -->
+        <div class="sidebar-group">
+          <span class="group-label">Pendahuluan</span>
+          <ul>
+            <li><a href="#hijaiyah" class="sidebar-link">Hijaiyah</a></li>
+            <li><a href="#harakat" class="sidebar-link">Harakat Dasar</a></li>
+            <li><a href="#tanwin" class="sidebar-link">Tanwin</a></li>
+            <li><a href="#sukun" class="sidebar-link">Sukun</a></li>
+            <li><a href="#tasydid" class="sidebar-link">Tasydid</a></li>
+          </ul>
+        </div>
+        <!-- ! Nun Sukun & Tanwin -->
+        <div class="sidebar-group">
+          <span class="group-label">Nun Sukun & Tanwin</span>
+          <ul>
+            <li><a href="#idhhar-halqi" class="sidebar-link">1. Idh-har Halqi</a></li>
+            <li><a href="#idgham-bighunnah" class="sidebar-link">2. Idgham Bighunnah</a></li>
+            <li><a href="#idhhar-wajib" class="sidebar-link">3. Idh-har Wajib</a></li>
+            <li><a href="#idgham-bilaghunnah" class="sidebar-link">4. Idgham Bilaghunnah</a></li>
+            <li><a href="#iqlab" class="sidebar-link">5. Iqlab</a></li>
+            <li><a href="#ikhfa" class="sidebar-link">6. Ikhfaa'</a></li>
+          </ul>
+        </div>
+        <!-- ! Mim Sukun -->
+        <div class="sidebar-group">
+          <span class="group-label">Mim Sukun</span>
+          <ul>
+            <li><a href="#idhhar-syafawi" class="sidebar-link">1. Idh-har Syafawi</a></li>
+            <li><a href="#ikhfa-syafawi" class="sidebar-link">2. Ikhfaa' Syafawi</a></li>
+            <li><a href="#idgham-mimi" class="sidebar-link">3. Idgham Mimi</a></li>
+          </ul>
+        </div>
+        <!-- ! Ghunnah  -->
+        <div class="sidebar-group">
+          <span class="group-label">Nun Tasydid & Mim Tasydid</span>
+          <ul>
+            <li><a href="#ghunnah" class="sidebar-link">1. Ghunnah</a></li>
+          </ul>
+        </div>
+        <!-- ! Tiga Macam Idgham -->
+        <div class="sidebar-group">
+          <span class="group-label">Tiga Macam Idgham</span>
+          <ul>
+            <li><a href="#idgham-mutamatsilain" class="sidebar-link">1. Idgham Mutamatsilain</a></li>
+            <li><a href="#idgham-mutajanisain" class="sidebar-link">2. Idgham Mutajanisain</a></li>
+            <li><a href="#idgham-mutaqoribain" class="sidebar-link">3. Idgham Mutaqoribain</a></li>
+          </ul>
+        </div>
+        <!-- ! Lam Ta'rif -->
+        <div class="sidebar-group">
+          <span class="group-label">Lam Ta'rif</span>
+          <ul>
+            <li><a href="#idhhar-qomariyah" class="sidebar-link">1. Idh-har Qomariyah</a></li>
+            <li><a href="#idgham-syamsiyah" class="sidebar-link">2. Idgham Syamsiyah</a></li>
+          </ul>
+        </div>
+        <!-- ! Tarqiq - Tafkhim (Pasal 6) -->
+        <div class="sidebar-group">
+          <span class="group-label">Tarqiq - Tafkhim</span>
+          <ul>
+            <li><a href="#lam-mufakhkhomah" class="sidebar-link">1. Lam Mufakhkhomah</a></li>
+            <li><a href="#lam-muroqqoqoh" class="sidebar-link">2. Lam Muroqqoqoh</a></li>
+            <li><a href="#ro-mufakhkhomah" class="sidebar-link">3. Ro' Mufakhkhomah</a></li>
+            <li><a href="#ro-muroqqoqoh" class="sidebar-link">4. Ro' Muroqqoqoh</a></li>
+            <li><a href="#ro-jawazul-wajhain" class="sidebar-link">5. Ro' Boleh Tebal/Tipis</a></li>
+          </ul>
+        </div>
+        <!-- ! Lam Sukun pada Kata Kerja (Pasal 7) -->
+        <div class="sidebar-group">
+          <span class="group-label">Lam Sukun Kata Kerja</span>
+          <ul>
+            <li><a href="#lam-sukun-fiil" class="sidebar-link">1. Hukum Lam Sukun Fi'il</a></li>
+          </ul>
+        </div>
+        <!-- ! Qolqolah (Pasal 8) -->
+        <div class="sidebar-group">
+          <span class="group-label">Qolqolah</span>
+          <ul>
+            <li><a href="#qolqolah-shughro" class="sidebar-link">1. Qolqolah Shughro</a></li>
+            <li><a href="#qolqolah-kubro" class="sidebar-link">2. Qolqolah Kubro</a></li>
+          </ul>
+        </div>
+        <!-- ! Mad (Pasal 9) -->
+        <div class="sidebar-group">
+          <span class="group-label">Hukum Mad</span>
+          <ul>
+            <li><a href="#mad-thobii" class="sidebar-link">1. Mad Thobi'i</a></li>
+            <li><a href="#mad-wajib-muttashil" class="sidebar-link">2. Mad Wajib Muttashil</a></li>
+            <li><a href="#mad-jaiz-munfashil" class="sidebar-link">3. Mad Jaiz Munfashil</a></li>
+            <li><a href="#mad-lazim-mutsaqqol-kilmi" class="sidebar-link">4. Mad Lazim Mutsaqqol Kilmi</a></li>
+            <li><a href="#mad-lazim-mukhoffaf-kilmi" class="sidebar-link">5. Mad Lazim Mukhoffaf Kilmi</a></li>
+            <li><a href="#mad-lein" class="sidebar-link">6. Mad Lein</a></li>
+            <li><a href="#mad-aridl-lissukun" class="sidebar-link">7. Mad 'Aridl Lissukun</a></li>
+            <li><a href="#mad-shilah-qoshiroh" class="sidebar-link">8. Mad Shilah Qoshiroh</a></li>
+            <li><a href="#mad-shilah-thowilah" class="sidebar-link">9. Mad Shilah Thowilah</a></li>
+            <li><a href="#mad-iwadl" class="sidebar-link">10. Mad 'Iwadl</a></li>
+            <li><a href="#mad-badal" class="sidebar-link">11. Mad Badal</a></li>
+            <li><a href="#mad-lazim-charfi-mukhoffaf" class="sidebar-link">12. Mad Lazim Charfi Mukhoffaf</a></li>
+            <li><a href="#mad-lazim-charfi-mutsaqqol" class="sidebar-link">13. Mad Lazim Charfi Mutsaqqol</a></li>
+            <li><a href="#mad-lazim-musyabba" class="sidebar-link">14. Mad Lazim Musyabba'</a></li>
+          </ul>
+        </div>
+        <!-- ! Waqof (Pasal 10) -->
+         <div class="sidebar-group">
+          <span class="group-label">Waqof</span>
+          <ul>
+            <li><a href="#waqof-keadaan" class="sidebar-link">1. Keadaan Huruf Akhir</a></li>
+            <li><a href="#saktah" class="sidebar-link">2. Saktah </a></li>
+            <li><a href="#tanda-waqof" class="sidebar-link">3. Tanda-tanda Waqof</a></li>
+          </ul>
+      </div>
+      <!-- ! Makhorijul Huruf (Pasal 11) -->
+         <div class="sidebar-group">
+          <span class="group-label">Makhorijul Huruf</span>
+          <ul>
+            <li><a href="#makhorijul-huruf" class="sidebar-link">1. Tempat Keluar Huruf</a></li>
+            <li><a href="#makhorijul-huruf" class="sidebar-link">2. Rincian Tempat Keluar Huruf</a></li>
+          </ul>
+      </div>
+    </aside>
+    <!-- ! Sidebar End -->
+
+    <!-- ! Main Content -->
+    <main class="doc-content">
+
+      <!-- ! Pendahuluan -->
+      <section>
+        <h1 class="doc-title-section">Pendahuluan</h1>
+        <!-- ! Hijaiyah -->
+        <section id="hijaiyah" class="doc-section">
+          <h1 class="doc-title">Mengenal Huruf Hijaiyah</h1>
+          <p class="doc-text">Huruf Hijaiyah merupakan huruf dasar pembentuk kata dan ayat dalam penulisan Al-Qur'an.
+          </p>
+          <div class="hijaiyah-grid">
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ا</span> <span class="hijaiyah-name">Alif</span>
+            </div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ب</span> <span class="hijaiyah-name">Ba’</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ت</span> <span class="hijaiyah-name">Ta’</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ث</span> <span class="hijaiyah-name">Tsa’</span>
+            </div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ج</span> <span class="hijaiyah-name">Jim</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ح</span> <span class="hijaiyah-name">Ha</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">خ</span> <span class="hijaiyah-name">Kha</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">د</span> <span class="hijaiyah-name">Dal</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ذ</span> <span class="hijaiyah-name">Dzal</span>
+            </div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ر</span> <span class="hijaiyah-name">Ra</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ز</span> <span class="hijaiyah-name">Zai</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">س</span> <span class="hijaiyah-name">Sin</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ش</span> <span class="hijaiyah-name">Syin</span>
+            </div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ص</span> <span class="hijaiyah-name">Shad</span>
+            </div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ض</span> <span class="hijaiyah-name">Dhad</span>
+            </div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ط</span> <span class="hijaiyah-name">Tha</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ظ</span> <span class="hijaiyah-name">Dha</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ع</span> <span class="hijaiyah-name">Ain</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">غ</span> <span class="hijaiyah-name">Ghain</span>
+            </div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ف</span> <span class="hijaiyah-name">Fa</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ق</span> <span class="hijaiyah-name">Qaf</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ك</span> <span class="hijaiyah-name">Kaf</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ل</span> <span class="hijaiyah-name">Lam</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">م</span> <span class="hijaiyah-name">Mim</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ن</span> <span class="hijaiyah-name">Nun</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">و</span> <span class="hijaiyah-name">Waw</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ه</span> <span class="hijaiyah-name">Ha</span></div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">لا</span> <span class="hijaiyah-name">Lam Alif</span>
+            </div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ء</span> <span class="hijaiyah-name">Hamzah</span>
+            </div>
+            <div class="hijaiyah-card"><span class="hijaiyah-char">ي</span> <span class="hijaiyah-name">Ya</span></div>
+          </div>
+        </section>
+        <!-- ! Hijaiyah End -->
+        <!-- ! Harakat -->
+        <section id="harakat" class="doc-section">
+          <h1 class="doc-title">Harakat Dasar</h1>
+          <p class="doc-text">Harakat adalah tanda baca yang diletakkan di atas atau di bawah huruf hijaiyah.</p>
+          <div class="harakat-grid">
+            <div class="hijaiyah-card harakat-card">
+              <span class="hijaiyah-char">اَ</span> <span class="hijaiyah-name">Fathah</span>
+              <p class="harakat-desc">Menghasilkan bunyi vokal <strong>"A"</strong>. <br> <span class="harakat-read">
+                  Dibaca: <em>A</em> </span></p>
+            </div>
+            <div class="hijaiyah-card harakat-card">
+              <span class="hijaiyah-char">تِ</span> <span class="hijaiyah-name">Kasrah</span>
+              <p class="harakat-desc">Menghasilkan bunyi vokal <strong>"I"</strong>. <br> <span class="harakat-read">
+                  Dibaca: <em>Ti</em> </span></p>
+            </div>
+            <div class="hijaiyah-card harakat-card">
+              <span class="hijaiyah-char">جُ</span> <span class="hijaiyah-name">Dammah</span>
+              <p class="harakat-desc">Menghasilkan bunyi vokal <strong>"U"</strong>. <br> <span class="harakat-read">
+                  Dibaca: <em>Ju</em> </span></p>
+            </div>
+          </div>
+        </section>
+        <!-- ! Harakat End -->
+        <!-- ! Tanwin -->
+        <section id="tanwin" class="doc-section">
+          <h1 class="doc-title">Tanwin</h1>
+          <p class="doc-text">Tanwin adalah tanda baca yang menghasilkan bunyi "N" di akhir bacaan.</p>
+          <div class="harakat-grid">
+            <div class="hijaiyah-card harakat-card">
+              <span class="hijaiyah-char">دً</span> <span class="hijaiyah-name">Fathahtain</span>
+              <p class="harakat-desc">Menghasilkan bunyi vokal <strong>"An"</strong>. <br> <span
+                  class="harakat-read">Dibaca: <em>Dan</em> </span></p>
+            </div>
+            <div class="hijaiyah-card harakat-card">
+              <span class="hijaiyah-char">بٍ</span> <span class="hijaiyah-name">Kasrahtain</span>
+              <p class="harakat-desc">Menghasilkan bunyi vokal <strong>"In"</strong>. <br> <span
+                  class="harakat-read">Dibaca: <em>Bin</em> </span></p>
+            </div>
+            <div class="hijaiyah-card harakat-card">
+              <span class="hijaiyah-char">شٌ</span> <span class="hijaiyah-name">Dammahtain</span>
+              <p class="harakat-desc">Menghasilkan bunyi vokal <strong>"Un"</strong>. <br> <span
+                  class="harakat-read">Dibaca: <em>Syun</em> </span></p>
+            </div>
+          </div>
+        </section>
+        <!-- ! Tanwin End -->
+        <!-- ! Sukun -->
+        <section id="sukun" class="doc-section">
+          <h1 class="doc-title">Sukun</h1>
+          <p class="doc-text">Sukun adalah tanda baca yang berfungsi mematikan atau menghilangkan bunyi vokal suatu
+            huruf.</p>
+          <div class="harakat-grid">
+            <div class="hijaiyah-card harakat-card">
+              <span class="hijaiyah-char">بَدْ</span> <span class="hijaiyah-name">Sukun (Dal)</span>
+              <p class="harakat-desc">Mematikan bunyi vokal pada huruf Dal. <br> <span class="harakat-read"> Dibaca:
+                  <em>Bad</em> </span></p>
+            </div>
+            <div class="hijaiyah-card harakat-card">
+              <span class="hijaiyah-char">حِسْ</span> <span class="hijaiyah-name">Sukun (Sin)</span>
+              <p class="harakat-desc">Mematikan bunyi vokal pada huruf Sin. <br> <span class="harakat-read"> Dibaca:
+                  <em>His</em> </span></p>
+            </div>
+            <div class="hijaiyah-card harakat-card">
+              <span class="hijaiyah-char">تُرْ</span> <span class="hijaiyah-name">Sukun (Ra)</span>
+              <p class="harakat-desc">Mematikan bunyi vokal pada huruf Ra. <br> <span class="harakat-read"> Dibaca:
+                  <em>Tur</em> </span></p>
+            </div>
+          </div>
+        </section>
+        <!-- ! Sukun End -->
+        <!-- ! Tasydid -->
+        <section id="tasydid" class="doc-section">
+          <h1 class="doc-title">Tasydid</h1>
+          <p class="doc-text">Tasydid adalah tanda baca yang berfungsi menggandakan atau menebalkan bunyi suatu huruf.
+          </p>
+          <div class="harakat-grid">
+            <div class="hijaiyah-card harakat-card">
+              <span class="hijaiyah-char">رَبَّ</span> <span class="hijaiyah-name">Tasydid (Ba)</span>
+              <p class="harakat-desc">Menekankan dan menggandakan bunyi huruf Ba. <br> <span class="harakat-read">
+                  Dibaca: <em>Rabba</em> </span></p>
+            </div>
+            <div class="hijaiyah-card harakat-card">
+              <span class="hijaiyah-char">رَدِّ</span> <span class="hijaiyah-name">Tasydid (Dal)</span>
+              <p class="harakat-desc">Menekankan dan menggandakan bunyi huruf Dal. <br> <span class="harakat-read">
+                  Dibaca: <em>Raddi</em> </span></p>
+            </div>
+            <div class="hijaiyah-card harakat-card">
+              <span class="hijaiyah-char">حُبُّ</span> <span class="hijaiyah-name">Tasydid (Bagian Ba)</span>
+              <p class="harakat-desc">Menekankan dan menggandakan bunyi huruf Ba. <br> <span class="harakat-read">
+                  Dibaca: <em>Hubbu</em> </span></p>
+            </div>
+          </div>
+        </section>
+        <!-- ! Tasydid End -->
+      </section>
+      <!-- ! Pendahuluan End -->
+
+      <hr class="section-divider">
+
+      <!-- ! Nun Sukun dan Tanwin -->
+      <section>
+        <h1 class="doc-title-section">Nun Sukun dan Tanwin</h1>
+        <!-- ! 1. Idh-har Halqi -->
+        <section id="idhhar-halqi" class="doc-section">
+          <h1 class="doc-title">1. Idh-har Halqi (<span class="text-arabic">إِظْهَارُ حَلْقِي</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> <em>Idh-har</em> artinya jelas, dan <em>Halqi</em> artinya
+            tenggorokan. Hukum bacaan ini berlaku apabila Nun Sukun (<span class="text-arabic">نْ</span>)
+            atau Tanwin bertemu dengan salah satu dari 6 huruf Halqi, yaitu: <strong>Hamzah (<span
+                class="text-arabic">ء</span>),
+              Ha (<span class="text-arabic">ه</span>), Ain (<span class="text-arabic">ع</span>), Ha (<span
+                class="text-arabic">ح</span>),
+              Ghain (<span class="text-arabic">غ</span>), dan Kha (<span class="text-arabic">خ</span>)</strong>.
+          </p>
+          <p class="doc-text">
+            <strong>Cara Membaca:</strong> Harus dibaca dengan terang, jelas, dan pendek (tidak samar dan
+            tidak mendengung). Sebagai misal Nun Sukun (<span class="text-arabic">نْ</span>) bertemu
+            Hamzah (<span class="text-arabic">ء</span>) yaitu <span class="text-arabic">إِنْ أَنَا</span>
+            harus dibaca <em>IN ANA</em>, tidak boleh dibaca <em>INN</em> (mendengung) <em>ANA</em>. Dan
+            misal Tanwin bertemu Hamzah (<span class="text-arabic">ء</span>) yaitu <span class="text-arabic">كُفُوًا
+              أَحَدٌ</span> harus dibaca <em>KUFUWAN ACHAD</em>, tidak boleh dibaca <em>KUFUWANN</em>
+            (mendengung) <em>ACHAD</em>.
+          </p>
+          <div class="contoh-box">
+            <p><strong>Contoh-contoh lain:</strong></p>
+            <div class="halqi-grid">
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(نْ - ء)</span></small> <span class="text-arabic">مَنْ
+                    أَعْطَى</span>
+                </li>
+                <li><small><span class="text-arabic">(نْ - ه)</span></small> <span class="text-arabic">يَنْهَى</span>
+                </li>
+                <li><small><span class="text-arabic">(نْ - ع)</span></small> <span class="text-arabic">مِنْ
+                    عَلَقٍ</span></li>
+                <li><small><span class="text-arabic">(نْ - ح)</span></small> <span
+                    class="text-arabic">يَنْحِتُونَ</span></li>
+                <li><small><span class="text-arabic">(نْ - غ)</span></small> <span class="text-arabic">مِنْ غِلٍّ</span>
+                </li>
+                <li><small><span class="text-arabic">(نْ - خ)</span></small> <span class="text-arabic">مِنْ
+                    خَوْفٍ</span></li>
+              </ul>
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(ــــٍ - ء)</span></small> <span class="text-arabic">حَاسِدٍ
+                    إِذَا</span>
+                </li>
+                <li><small><span class="text-arabic">(ــــٌ - ه)</span></small> <span class="text-arabic">سَلَامٌ
+                    هِيَ</span>
+                </li>
+                <li><small><span class="text-arabic">(ــــٍ - ع)</span></small> <span class="text-arabic">جَنَّةٍ
+                    عَالِيَةٍ</span></li>
+                <li><small><span class="text-arabic">(ــــً - ح)</span></small> <span class="text-arabic">عَطَاءً
+                    حِسَاباً</span></li>
+                <li><small><span class="text-arabic">(ــــٌ - غ)</span></small> <span class="text-arabic">أَجْرٌ غَيْرُ
+                    مَمْنُونٍ</span></li>
+                <li><small><span class="text-arabic">(ــــٍ - خ)</span></small> <span class="text-arabic">ذَرَّةٍ
+                    خَيْراً</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ! 2. Idgham Bighunnah -->
+        <section id="idgham-bighunnah" class="doc-section">
+          <h1 class="doc-title">2. Idgham Bighunnah (<span class="text-arabic">إِدْغَامُ بِغُنَّةٍ</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> <em>Idgham</em> artinya memasukkan, dan <em>Bighunnah</em> artinya
+            dengan dengung. Hukum ini berlaku apabila Nun Sukun (<span class="text-arabic">نْ</span>)
+            atau Tanwin bertemu dengan salah satu dari 4 huruf: <strong>Ya (<span class="text-arabic">ي</span>),
+              Nun (<span class="text-arabic">ن</span>), Mim (<span class="text-arabic">م</span>), dan Wau
+              (<span class="text-arabic">و</span>)</strong> dalam dua kata.
+          </p>
+          <p class="doc-text">
+            <strong>Cara Membaca:</strong> Nun Sukun (<span class="text-arabic">نْ</span>) atau Tanwin
+            dimasukkan menjadi satu dengan huruf sesudahnya atau ditasydidkannya dan dengan mendengung.
+            Sebagai misal huruf Nun Sukun (<span class="text-arabic">نْ</span>) bertemu Ya (<span
+              class="text-arabic">ي</span>)
+            yaitu <span class="text-arabic">لَنْ يَقُولَ</span> ini terdiri dari dua kata, yaitu <span
+              class="text-arabic">لَنْ</span>
+            dan <span class="text-arabic">يَقُولَ</span>, membacanya harus <em>LAIYAQUULA</em>, tidak
+            boleh dibaca <em>LAN-YAQUULA</em>, sebab Nun Sukun (<span class="text-arabic">نْ</span>)
+            sudah dimasukkan menjadi satu dengan huruf Ya (<span class="text-arabic">ي</span>)
+            sesudahnya. Misal Tanwin bertemu Ya (<span class="text-arabic">ي</span>) yaitu <span
+              class="text-arabic">كِتَابًا
+              يَلْقَاهُ</span> inipun terdiri dari dua kata, yaitu <span class="text-arabic">كِتَابًا</span>
+            dan <span class="text-arabic">يَلْقَاهُ</span>, membacanya harus <em>KITAABAIYALQOOHU</em>,
+            tidak boleh dibaca <em>KITAABAN YALQOOHU</em>.
+          </p>
+          <div class="contoh-box">
+            <p><strong>Contoh-contoh lain:</strong></p>
+            <div class="halqi-grid">
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(نْ - ي)</span></small> <span class="text-arabic">مَنْ
+                    يَعْمَلْ</span>
+                </li>
+                <li><small><span class="text-arabic">(نْ - ن)</span></small> <span class="text-arabic">مِنْ
+                    نِعْمَةٍ</span>
+                </li>
+                <li><small><span class="text-arabic">(نْ - م)</span></small> <span class="text-arabic">مِنْ
+                    مَسَدٍ</span></li>
+                <li><small><span class="text-arabic">(نْ - و)</span></small> <span class="text-arabic">مِنۡ
+                    وَّرَآٮِٕهِمۡ</span></li>
+              </ul>
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(ـٍ - ي)</span></small> <span class="text-arabic">يَوْمَئِذٍ
+                    يَصْدُرُ</span></li>
+                <li><small><span class="text-arabic">(ـٌ - ن)</span></small> <span class="text-arabic">عَامِلَةٌ
+                    نَاصِبَةٌ</span></li>
+                <li><small><span class="text-arabic">(ـٍ - م)</span></small> <span class="text-arabic">بِحِجَارَةٍ مِنْ
+                    سِجِّيلٍ</span></li>
+                <li><small><span class="text-arabic">(ـً - و)</span></small> <span class="text-arabic">مَالًا
+                    وَعَدَّدَهُ</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ! 3. Idh-har Wajib -->
+        <section id="idhhar-wajib" class="doc-section">
+          <h1 class="doc-title">3. Idh-har Wajib (<span class="text-arabic">إِظْهَارُ وَاجِب</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> Bila Nun Sukun (<span class="text-arabic">نْ</span>) atau Tanwin
+            bertemu dengan salah satu dari empat huruf, yakni <strong>Ya (<span class="text-arabic">ي</span>),
+              Nun (<span class="text-arabic">ن</span>), Mim (<span class="text-arabic">م</span>), dan Waw
+              (<span class="text-arabic">و</span>)</strong> dalam suatu perkataan, maka hukum bacaannya
+            tidak lagi disebut <em>Idgham Bighunnah</em> dan tidak disuarakan dengan mendengung, tetapi
+            wajib dibaca dengan terang dan jelas. Hukum bacaannya disebut <em>Idh-har Wajib</em>.
+          </p>
+          <p class="doc-text">
+            <strong>Cara Membaca:</strong> Bandingkan dua contoh berikut, masing-masing terdapat Nun Sukun
+            (<span class="text-arabic">نْ</span>) bertemu Waw (<span class="text-arabic">و</span>),
+            yang satu terdiri dari dua kata dan yang satunya dari satu kata; yaitu <span class="text-arabic">إِنْ
+              وَهَبَتْ</span> dan <span class="text-arabic">قِنْوَانٌ</span>. Yang pertama <span
+              class="text-arabic">إِنْ
+              وَهَبَتْ</span> harus dibaca <em>IUWWAHABAT</em>, tidak boleh dibaca <em>IN-WAHABAT</em>,
+            sebab Nun Sukun (<span class="text-arabic">نْ</span>) diidghamkan pada Waw (<span
+              class="text-arabic">و</span>).
+            Sedang <span class="text-arabic">قِنْوَانٌ</span> harus dibaca <em>QIN-WANUN</em> dengan
+            terang/idh-har, tidak boleh dibaca <em>QIUWWANUN</em> sebab Nun Sukun (<span class="text-arabic">نْ</span>)
+            wajib di-idh-harkan, karena Nun Sukun (<span class="text-arabic">نْ</span>) dan Waw (<span
+              class="text-arabic">و</span>) keduanya terdapat dalam satu kata.
+          </p>
+        </section>
+
+        <!-- ! 4. Idgham Bilaghunnah -->
+        <section id="idgham-bilaghunnah" class="doc-section">
+          <h1 class="doc-title">4. Idgham Bilaghunnah (<span class="text-arabic">إِدْغَامُ بِلاَ غُنَّةٍ</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> <em>Bilaghunnah</em> artinya: Dengan tidak mendengung. Hukum
+            bacaan disebut <em>Idgham Bilaghunnah</em> bila Nun Sukun (<span class="text-arabic">نْ</span>)
+            atau Tanwin berhadapan dengan huruf <strong>Lam (<span class="text-arabic">ل</span>)</strong>
+            dan <strong>Ra (<span class="text-arabic">ر</span>)</strong>.
+          </p>
+          <p class="doc-text">
+            <strong>Cara Membaca:</strong> Cara membacanya meng-idghamkan Nun Sukun (<span
+              class="text-arabic">نْ</span>)
+            atau Tanwin pada Lam (<span class="text-arabic">ل</span>) dan Ra (<span class="text-arabic">ر</span>)
+            tetapi tanpa mendengung. Sebagai contoh <span class="text-arabic">إِنْ لَمْ تَفْعَلْ</span>
+            dibaca <em>ILLAM TAF'AL</em> tidak boleh dibaca <em>IN-LAM TAF'AL</em>, bunyi Nun Sukun (<span
+              class="text-arabic">نْ</span>)
+            menjadi satu dengan Lam (<span class="text-arabic">ل</span>) dalam kata <span class="text-arabic">إِنْ
+              لَمْ</span>. Serta contoh <span class="text-arabic">مِنْ رَبِّكَ</span> dibaca <em>MIRROBBIKA</em>
+            dan tidak <em>MIN-ROBBIKA</em>, bunyi Nun Sukun (<span class="text-arabic">نْ</span>) pada
+            kata <span class="text-arabic">مِنْ</span> di-idghamkan menjadi satu dengan Ra (<span
+              class="text-arabic">ر</span>)
+            dalam kata <span class="text-arabic">رَبِّكَ</span>.
+          </p>
+          <div class="contoh-box">
+            <p><strong>Contoh-contoh lain:</strong></p>
+            <div class="halqi-grid">
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(نْ - ل)</span></small> <span class="text-arabic">لَئِنْ لَمْ
+                    يَنتَهِ</span></li>
+                <li><small><span class="text-arabic">(نْ - ر)</span></small> <span class="text-arabic">مِنْ
+                    رَحِيقٍ</span>
+                </li>
+              </ul>
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(ـٌ - ل)</span></small> <span class="text-arabic">خَيْرٌ
+                    لَكَ</span></li>
+                <li><small><span class="text-arabic">(ـٍ - ر)</span></small> <span class="text-arabic">شَيْطَانٍ
+                    رَجِيمٍ</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ! 5. Iqlab -->
+        <section id="iqlab" class="doc-section">
+          <h1 class="doc-title">5. Iqlab (<span class="text-arabic">إِقْلاَب</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> <em>Iqlab</em> artinya: menukar atau mengganti. Hukum bacaan
+            disebut <em>Iqlab</em> apabila Nun Sukun (<span class="text-arabic">نْ</span>) atau Tanwin
+            bertemu dengan huruf <strong>Ba’ (<span class="text-arabic">ب</span>)</strong>.
+          </p>
+          <p class="doc-text">
+            <strong>Cara Membaca:</strong> Cara membacanya dengan menyuarakan Nun Sukun (<span
+              class="text-arabic">نْ</span>)
+            atau Tanwin menjadi suara Mim (<span class="text-arabic">م</span>), dengan merapatkan dua
+            bibir serta mendengung. Nun Sukun (<span class="text-arabic">نْ</span>) bertemu Ba’ (<span
+              class="text-arabic">ب</span>)
+            seperti <span class="text-arabic">أَنْ بُورِكَ</span> tidak boleh dibaca <em>AN-BURIKA</em>,
+            tetapi harus dibaca <em>AMMMBUURIKA</em>. Tanwin bertemu Ba’ (<span class="text-arabic">ب</span>)
+            seperti <span class="text-arabic">أَمَدًا بَعِيدًا</span> tidak dibaca <em>AMADAN-BA'IIDAN</em>
+            tetapi harus dibaca <em>AMADAMMBA'IIDAN</em>.
+          </p>
+          <div class="contoh-box">
+            <p><strong>Contoh-contoh lain:</strong></p>
+            <div class="halqi-grid">
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(نْ - ب)</span></small> <span
+                    class="text-arabic">لَيُنْبَذَنَّ</span>
+                </li>
+                <li><small><span class="text-arabic">(نْ - ب)</span></small> <span class="text-arabic">مِنْ
+                    بَعْدِ</span></li>
+                <li><small><span class="text-arabic">(نْ - ب)</span></small> <span class="text-arabic">مَنْ
+                    بَخِلَ</span></li>
+              </ul>
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(ـً - ب)</span></small> <span class="text-arabic">لَنَسْفَعًا
+                    بِالنَّاصِيَةِ</span></li>
+                <li><small><span class="text-arabic">(ـٌ - ب)</span></small> <span class="text-arabic">حِلٌّ بِهٰذَا
+                    الْبَلَدِ</span></li>
+                <li><small><span class="text-arabic">(ـٍ - ب)</span></small> <span class="text-arabic">كِرَامٍ
+                    بَرَرَةٍ</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ! 6. Ikhfa'  -->
+        <section id="ikhfa" class="doc-section">
+          <h1 class="doc-title">6. Ikhfaa' (<span class="text-arabic">إِخْفَاء</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> <em>Ikhfaa'</em> artinya: Menyamarkan. Hukum bacaan disebut <em>Ikhfaa'</em>
+            yaitu jika Nun Sukun (<span class="text-arabic">نْ</span>) atau Tanwin berhadapan salah
+            satu huruf hijaiyah, selain huruf-huruf <em>Halqi</em>, huruf-huruf <em>Idgham Bighunnah</em>,
+            <em>Idgham Bilaghunnah</em>, dan huruf <em>Iqlab</em>, yaitu huruf-huruf: <strong>Ta’ (<span
+                class="text-arabic">ت</span>),
+              Tsa’ (<span class="text-arabic">ث</span>), Jim (<span class="text-arabic">ج</span>), Dal
+              (<span class="text-arabic">د</span>), Dzal (<span class="text-arabic">ذ</span>), Zai (<span
+                class="text-arabic">ز</span>),
+              Sin (<span class="text-arabic">س</span>), Syin (<span class="text-arabic">ش</span>), Shad (<span
+                class="text-arabic">ص</span>),
+              Dhad (<span class="text-arabic">ض</span>), Tha (<span class="text-arabic">ط</span>), Dha (<span
+                class="text-arabic">ظ</span>),
+              Fa (<span class="text-arabic">ف</span>), Qaf (<span class="text-arabic">ق</span>), dan
+              Kaf (<span class="text-arabic">ك</span>)</strong>.
+          </p>
+          <p class="doc-text">
+            <strong>Cara Membaca:</strong> Suara Nun Sukun (<span class="text-arabic">نْ</span>) maupun
+            Tanwin masih tetap terdengar tetapi samar antara <em>idh-har</em> dan <em>idgham</em>,
+            sehingga kedengarannya berbunyi seperti "NG" jika bertemu <strong>Zai (<span class="text-arabic">ز</span>),
+              Dha (<span class="text-arabic">ظ</span>), Fa (<span class="text-arabic">ف</span>), Qaf (<span
+                class="text-arabic">ق</span>),
+              dan Kaf (<span class="text-arabic">ك</span>)</strong> dan ada kalanya mirip suara "NY dan
+            NG" jika bertemu <strong>Syin (<span class="text-arabic">ش</span>), Sin (<span
+                class="text-arabic">س</span>), Dzal
+              (<span class="text-arabic">ذ</span>), dan Tsa’ (<span class="text-arabic">ث</span>)</strong>,
+            ada kalanya seperti "NY" jika bertemu <strong>Jim (<span class="text-arabic">ج</span>)</strong>
+            dan ada kalanya tetap berbunyi huruf <strong>Nun (<span class="text-arabic">ن</span>)</strong>
+            ketika bertemu dengan huruf-huruf <strong>Tha (<span class="text-arabic">ط</span>), Dhad (<span
+                class="text-arabic">ض</span>),
+              Dal (<span class="text-arabic">د</span>), dan Ta’ (<span class="text-arabic">ت</span>)</strong>.
+          </p>
+          <p class="doc-text">
+            Sebagai contoh bacaan: <span class="text-arabic">مِنْكُمْ</span> tidak boleh dibaca <em>MIN-KUM</em>,
+            tetapi harus dibaca: <em>MINGKUM</em>, sebab suara Nun Sukun (<span class="text-arabic">نْ</span>)
+            bersambung dengan Kaf (<span class="text-arabic">ك</span>) serta mendengung. Contoh lain
+            seperti <span class="text-arabic">لِمَنْ شَاءَ</span> bersambung dengan Syin (<span
+              class="text-arabic">ش</span>)
+            tidak dibaca <em>LIMAN-SYAAA</em>, tetapi harus dibaca <em>LIMANNYSYAA</em>. <span class="text-arabic">أَنْ
+              جَاءَ</span> bersambung dengan Jim (<span class="text-arabic">ج</span>) tidak dibaca <em>AN-JAAA</em>,
+            tetapi harus dibaca <em>ANNY-JAAA</em>. Dan <span class="text-arabic">مِنْ طِينٍ</span>
+            bersambung dengan Tha (<span class="text-arabic">ط</span>) harus dibaca <em>MINN-THIIN</em>,
+            tidak boleh <em>MIN-THIIN</em>.
+          </p>
+          <div class="contoh-box">
+            <p><strong>Contoh-contoh lain:</strong></p>
+            <div class="halqi-grid">
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(نْ - ت)</span></small> <span class="text-arabic">وَلَا
+                    أَنْتُمْ</span>
+                </li>
+                <li><small><span class="text-arabic">(نْ - ث)</span></small> <span class="text-arabic">مَنْ
+                    ثَقُلَتْ</span>
+                </li>
+                <li><small><span class="text-arabic">(نْ - ج)</span></small> <span class="text-arabic">مِنْ جُوعٍ</span>
+                </li>
+                <li><small><span class="text-arabic">(نْ - د)</span></small> <span class="text-arabic">مَنْ
+                    دَسَّاهَا</span>
+                </li>
+                <li><small><span class="text-arabic">(نْ - ذ)</span></small> <span
+                    class="text-arabic">فَأَنْذَرْتُكُمْ</span>
+                </li>
+                <li><small><span class="text-arabic">(نْ - ز)</span></small> <span
+                    class="text-arabic">أَنْزَلْنَا</span></li>
+                <li><small><span class="text-arabic">(نْ - س)</span></small> <span class="text-arabic">مِنْ
+                    سِجِّيلٍ</span>
+                </li>
+                <li><small><span class="text-arabic">(نْ - ش)</span></small> <span class="text-arabic">مِنْ شَرِّ</span>
+                </li>
+                <li><small><span class="text-arabic">(نْ - ص)</span></small> <span class="text-arabic">فَانْصَبْ</span>
+                </li>
+                <li><small><span class="text-arabic">(نْ - ض)</span></small> <span class="text-arabic">مَنْضُودٍ</span>
+                </li>
+                <li><small><span class="text-arabic">(نْ - ط)</span></small> <span class="text-arabic">عَنْ
+                    طَبَقٍ</span></li>
+                <li><small><span class="text-arabic">(نْ - ظ)</span></small> <span class="text-arabic">أَفَلَا
+                    يَنْظُرُونَ</span></li>
+                <li><small><span class="text-arabic">(نْ - ف)</span></small> <span
+                    class="text-arabic">مُنْفَكِّينَ</span>
+                </li>
+                <li><small><span class="text-arabic">(نْ - ق)</span></small> <span class="text-arabic">أَنْقَضَ</span>
+                </li>
+                <li><small><span class="text-arabic">(نْ - ك)</span></small> <span class="text-arabic">إِنْ كَانَ</span>
+                </li>
+              </ul>
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(ـً - ت)</span></small> <span class="text-arabic">نَارًا
+                    تَلَظَّىٰ</span>
+                </li>
+                <li><small><span class="text-arabic">(ـٍ - ث)</span></small> <span class="text-arabic">مُّطَاعٍ ثَمَّ
+                    أَمِينٍ</span></li>
+                <li><small><span class="text-arabic">(ـً - ج)</span></small> <span class="text-arabic">حُبًّا
+                    جَمًّا</span>
+                </li>
+                <li><small><span class="text-arabic">(ـً - د)</span></small> <span class="text-arabic">دَكّاً
+                    دَكّاً</span>
+                </li>
+                <li><small><span class="text-arabic">(ـٍ - ذ)</span></small> <span class="text-arabic">يَوْمٍ ذِى
+                    مَسْغَبَةٍ</span></li>
+                <li><small><span class="text-arabic">(ـٍ - ز)</span></small> <span class="text-arabic">يَوْمَئِذٍ
+                    زُرْقًا</span></li>
+                <li><small><span class="text-arabic">(ـً - س)</span></small> <span class="text-arabic">بَشَراً
+                    سَوِيّاً</span>
+                </li>
+                <li><small><span class="text-arabic">(ـٍ - ش)</span></small> <span class="text-arabic">شَيْءٍ
+                    شَهِيدٍ</span>
+                </li>
+                <li><small><span class="text-arabic">(ـً - ص)</span></small> <span class="text-arabic">صَفّاً
+                    صَفّاً</span>
+                </li>
+                <li><small><span class="text-arabic">(ـً - ض)</span></small> <span class="text-arabic">قَوۡمًا
+                    ضَآلِّيۡنَ</span></li>
+                <li><small><span class="text-arabic">(ـً - ط)</span></small> <span class="text-arabic">قَوْماً
+                    طَاغِينَ</span>
+                </li>
+                <li><small><span class="text-arabic">(ـً - ظ)</span></small> <span class="text-arabic">قَوْماً
+                    ظَالِمِينَ</span></li>
+                <li><small><span class="text-arabic">(ـٌ - ف)</span></small> <span class="text-arabic">لَقَوْلٌ
+                    فَصْلٌ</span>
+                </li>
+                <li><small><span class="text-arabic">(ـٍ - ق)</span></small> <span class="text-arabic">ذَنْبٍ
+                    قُتِلَتْ</span>
+                </li>
+                <li><small><span class="text-arabic">(ـٍ - ك)</span></small> <span class="text-arabic">نَاصِيَةٍ
+                    كَاذِبَةٍ</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- ! Nun Sukun dan Tanwin End -->
+
+      <hr class="section-divider">
+
+      <!-- ! Mim Sukun -->
+      <section>
+        <h1 class="doc-title-section">Mim Sukun</h1>
+        <!-- ! 1. Idh-har Syafawi -->
+        <section id="idhhar-syafawi" class="doc-section">
+          <h1 class="doc-title">1. Idh-har Syafawi (<span class="text-arabic">إِظْهَارُ شَفَوِيّ</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> <em>Idh-har</em> artinya jelas, dan <em>Syafawi</em> artinya
+            bibir. Hukum bacaan disebut <em>Idh-har Syafawi</em> apabila Mim Sukun (<span class="text-arabic">مْ</span>)
+            bertemu dengan salah satu huruf hijaiyah selain huruf <strong>Ba’ (<span
+                class="text-arabic">ب</span>)</strong>
+            dan <strong>Mim (<span class="text-arabic">م</span>)</strong>.
+          </p>
+          <p class="doc-text">
+            <strong>Cara Membaca:</strong> Membacanya Mim Sukun (<span class="text-arabic">مْ</span>)
+            disuarakan dengan terang dan jelas di bibir serta mulut tertutup, dan harus lebih diperjelas
+            lagi bila Mim Sukun (<span class="text-arabic">مْ</span>) bertemu dengan Waw (<span
+              class="text-arabic">و</span>)
+            dan Fa (<span class="text-arabic">ف</span>). Sebagai contoh Mim Sukun (<span class="text-arabic">مْ</span>)
+            bertemu Lam (<span class="text-arabic">ل</span>) yaitu <span class="text-arabic">مَمْلُوكًا</span>
+            harus dibaca <em>MAM-LUUKAN</em>, tidak boleh dibaca <em>MAMMLUUKAN</em>. Serta contoh Mim
+            Sukun (<span class="text-arabic">مْ</span>) bertemu Fa (<span class="text-arabic">ف</span>)
+            yaitu <span class="text-arabic">هُمْ فِيهَا</span> harus dibaca <em>HUM-FIIHA</em> dan tidak
+            boleh dibaca <em>HUMMFIIHA</em>.
+          </p>
+          <div class="contoh-box">
+            <p><strong>Contoh-contoh lain:</strong></p>
+            <div class="halqi-grid">
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(مْ - ذ)</span></small> <span class="text-arabic">رَبُّكُمْ ذُو
+                    رَحْمَةٍ</span></li>
+                <li><small><span class="text-arabic">(مْ - ر)</span></small> <span class="text-arabic">إِيلَافِهِمْ
+                    رِحْلَةَ</span></li>
+                <li><small><span class="text-arabic">(مْ - ز)</span></small> <span class="text-arabic">أَمْ زَيَّنَّا
+                    السَّمَاءَ</span></li>
+                <li><small><span class="text-arabic">(مْ - س)</span></small> <span class="text-arabic">فَوْقَكُمْ
+                    سَبْعًا</span></li>
+                <li><small><span class="text-arabic">(مْ - ش)</span></small> <span class="text-arabic">هُمْ شَرُّ
+                    الْبَرِيَّةِ</span></li>
+                <li><small><span class="text-arabic">(مْ - ص)</span></small> <span class="text-arabic">إِنْ كُنْتُمْ
+                    صَادِقِينَ</span></li>
+                <li><small><span class="text-arabic">(مْ - ك)</span></small> <span class="text-arabic">إِنَّهُمْ
+                    كَانُوا</span></li>
+                <li><small><span class="text-arabic">(مْ - ل)</span></small> <span class="text-arabic">فَهُمْ لَا
+                    يُؤْمِنُونَ</span></li>
+                <li><small><span class="text-arabic">(مْ - ن)</span></small> <span class="text-arabic">أَلَمْ
+                    نَجْعَلْ</span>
+                </li>
+                <li><small><span class="text-arabic">(مْ - و)</span></small> <span class="text-arabic">عَلَيْهِمْ وَلَا
+                    هُمْ
+                    يَحْزَنُونَ</span></li>
+                <li><small><span class="text-arabic">(مْ - ه)</span></small> <span
+                    class="text-arabic">أَمْهِلْهُمْ</span>
+                </li>
+                <li><small><span class="text-arabic">(مْ - ي)</span></small> <span class="text-arabic">مَا لَمْ
+                    يَعْلَمْ</span></li>
+                <li><small><span class="text-arabic">(مْ - ق)</span></small> <span class="text-arabic">وَإِذَا
+                    رَأَوْهُمْ
+                    قَالُوا</span></li>
+              </ul>
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(مْ - ء)</span></small> <span class="text-arabic">فَلَهُمْ
+                    أَجْرُهُمْ</span></li>
+                <li><small><span class="text-arabic">(مْ - ت)</span></small> <span class="text-arabic">أَلَمْ تَرَ
+                    كَيْفَ</span></li>
+                <li><small><span class="text-arabic">(مْ - ث)</span></small> <span class="text-arabic">وُكِّلَ بِكُمْ
+                    ثُمَّ</span></li>
+                <li><small><span class="text-arabic">(مْ - ج)</span></small> <span class="text-arabic">لَهُمْ
+                    جَنَّاتٌ</span>
+                </li>
+                <li><small><span class="text-arabic">(مْ - ح)</span></small> <span class="text-arabic">عَلَيْهِمْ
+                    حَافِظِينَ</span></li>
+                <li><small><span class="text-arabic">(مْ - خ)</span></small> <span class="text-arabic">هُمْ خَيْرُ
+                    الْبَرِيَّةِ</span></li>
+                <li><small><span class="text-arabic">(مْ - د)</span></small> <span class="text-arabic">فَدَمْدَمَ
+                    عَلَيْهِمْ</span></li>
+                <li><small><span class="text-arabic">(مْ - ض)</span></small> <span class="text-arabic">وَامْضُوا</span>
+                </li>
+                <li><small><span class="text-arabic">(مْ - ط)</span></small> <span class="text-arabic">لَهُمْ
+                    طَعَامٌ</span>
+                </li>
+                <li><small><span class="text-arabic">(مْ - ظ)</span></small> <span class="text-arabic">وَظَنَنْتُمْ
+                    ظَنَّ
+                    السَّوْءِ</span></li>
+                <li><small><span class="text-arabic">(مْ - ع)</span></small> <span class="text-arabic">إِذْ هُمْ
+                    عَلَيْهَا
+                    قُعُودٌ</span></li>
+                <li><small><span class="text-arabic">(مْ - غ)</span></small> <span class="text-arabic">مَاؤُكُمْ
+                    غَوْرًا</span></li>
+                <li><small><span class="text-arabic">(مْ - ف)</span></small> <span class="text-arabic">لَهُمْ
+                    فِيهَا</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ! 2. Ikhfa Syafawi -->
+        <section id="ikhfa-syafawi" class="doc-section">
+          <h1 class="doc-title">2. Ikhfa Syafawi (<span class="text-arabic">إِخْفَاءُ شَفَوِيّ</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> Hukum bacaan disebut <em>Ikhfa Syafawi</em> ialah apabila Mim
+            Sukun (<span class="text-arabic">مْ</span>) berhadapan dengan huruf <strong>Ba’ (<span
+                class="text-arabic">ب</span>)</strong>.
+          </p>
+          <p class="doc-text">
+            <strong>Cara Membaca:</strong> Disuarakan samar-samar di bibir serta didengungkan. Sebagai
+            contoh Mim Sukun (<span class="text-arabic">مْ</span>) bertemu Ba' (<span class="text-arabic">ب</span>)
+            yaitu <span class="text-arabic">تَرْمِيهِمْ بِحِجَارَةٍ</span> harus dibaca
+            <em>TARMIE-HIMMBICHIJAAROH</em>,
+            dan tidak boleh dibaca <em>TARMIE-HIM-BICHIJAAROH</em>. Serta contoh Mim Sukun (<span
+              class="text-arabic">مْ</span>)
+            bertemu Ba' (<span class="text-arabic">ب</span>) yaitu <span class="text-arabic">إِنَّ
+              رَبَّهُمْ بِهِمْ</span> harus dibaca <em>INNA ROBBAHUMM BIHIM</em>, dan tidak boleh dibaca <em>INNA
+              ROBBAHUM-BIHIM</em>.
+          </p>
+          <div class="contoh-box">
+            <p><strong>Contoh-contoh lain:</strong></p>
+            <div class="halqi-grid">
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(مْ - ب)</span></small> <span class="text-arabic">فَبَشِّرْهُمْ
+                    بِعَذَابٍ</span></li>
+                <li><small><span class="text-arabic">(مْ - ب)</span></small> <span class="text-arabic">كُنْتُمْ
+                    بِهi</span>
+                </li>
+                <li><small><span class="text-arabic">(مْ - ب)</span></small> <span class="text-arabic">مَا صَاحِبُكُمْ
+                    بِمَجْنُونٍ</span></li>
+              </ul>
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(مْ - ب)</span></small> <span class="text-arabic">فَإِذَا هُمْ
+                    بِالسَّاهِرَةِ</span></li>
+                <li><small><span class="text-arabic">(مْ - ب)</span></small> <span class="text-arabic">رَبَّهُمْ
+                    بِالْغَيْبِ</span></li>
+                <li><small><span class="text-arabic">(مْ - ب)</span></small> <span class="text-arabic">يَأْتِيكُمْ
+                    بِمَاءٍ
+                    مَعِينٍ</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ! 3. Idgham Mimi -->
+        <section id="idgham-mimi" class="doc-section">
+          <h1 class="doc-title">3. Idgham Mimi (<span class="text-arabic">إِدْغَامُ مِيمِي</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> Hukum bacaan disebut <em>Idgham Mimi</em> atau <em>Idgham
+              Mutamatsilain</em> ialah bila Mim Sukun (<span class="text-arabic">مْ</span>) bertemu sesama <strong>Mim
+              (<span class="text-arabic">م</span>)</strong>.
+          </p>
+          <p class="doc-text">
+            <strong>Cara Membaca:</strong> Menyuarakan Mim rangkap atau ditasydidkan. Sebagai contoh Mim
+            Sukun (<span class="text-arabic">مْ</span>) bertemu Mim (<span class="text-arabic">م</span>)
+            yaitu <span class="text-arabic">إِلَيْكُمْ مُرْسَلُونَ</span> harus dibaca <em>ILAIKUMMURSALUUN</em>,
+            dan tidak boleh dibaca <em>ILAIKUM-MURSALUUN</em>.
+          </p>
+          <div class="contoh-box">
+            <p><strong>Contoh-contoh lain:</strong></p>
+            <div class="halqi-grid">
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(مْ - م)</span></small> <span class="text-arabic">عَلَيْهِمْ
+                    مُؤْصَدَةٌ</span></li>
+                <li><small><span class="text-arabic">(مْ - م)</span></small> <span class="text-arabic">عَلَى قُلُوبِهِمْ
+                    مَا
+                    كَانُوا</span></li>
+              </ul>
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(مْ - م)</span></small> <span class="text-arabic">أَطْعَمَهُمْ مِنْ
+                    جُوعٍ</span></li>
+                <li><small><span class="text-arabic">(مْ - م)</span></small> <span class="text-arabic">إِنَّهُمْ
+                    مَبْعُوثُونَ</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- ! Mim Sukun End -->
+
+      <hr class="section-divider">
+
+      <!-- ! Ghunnah -->
+      <section>
+        <h1 class="doc-title-section">Ghunnah</h1>
+        <section id="ghunnah" class="doc-section">
+          <h1 class="doc-title">1. Ghunnah (<span class="text-arabic">غُنَّة</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> Hukum bacaan disebut <em>Ghunnah</em> yaitu wajib dibaca
+            mendengung adalah apabila ada Nun bertasydid (<span class="text-arabic">نّ</span>) dan Mim
+            bertasydid (<span class="text-arabic">مّ</span>).
+          </p>
+          <p class="doc-text">
+            <strong>Cara Membaca:</strong> Sebagai contoh <span class="text-arabic">إِنَّ</span> harus
+            dibaca <em>INNA</em> dengan mendengung tidak boleh dibaca <em>INA</em>. Serta contoh <span
+              class="text-arabic">عَمَّ</span>
+            wajib dibaca <em>'AMMMA</em> dengan mendengung tidak boleh dibaca <em>AMA</em>. Serta contoh <span
+              class="text-arabic">مِمَّ</span>
+            harus dibaca <em>MIMMA</em> dengan mendengung tidak boleh dibaca <em>MIMA</em>.
+          </p>
+        </section>
+      </section>
+      <!-- ! Ghunnah End -->
+
+      <hr class="section-divider">
+
+      <!-- ! Tiga Macam Idgham -->
+      <section>
+        <h1 class="doc-title-section">Tiga Macam Idgham</h1>
+        <!-- ! Idgham Mutamatsilain -->
+        <section id="idgham-mutamatsilain" class="doc-section">
+          <h1 class="doc-title">1. Idgham Mutamatsilain (<span class="text-arabic">إِدْغَامُ مُتَمَاثِلَيْنِ</span>)
+          </h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> <em>Mutamatsilain</em> artinya dua sama. Hukum bacaan disebut <em>Idgham
+              Mutamatsilain</em> ialah apabila suatu huruf bertemu sesamanya, yang sama makhroj dan
+            sama sifatnya, huruf yang pertama sukun dan huruf yang kedua berharakat.
+          </p>
+          <p class="doc-text">
+            <strong>Cara Membaca:</strong> Memasukkan huruf pertama pada huruf yang kedua atau dengan
+            mentasydidkannya, yaitu dibaca dengan tasydid. Sebagai contoh huruf pertama Dzal (<span
+              class="text-arabic">ذْ</span>) bertemu dengan sesama Dzal (<span class="text-arabic">ذ</span>) yaitu <span
+              class="text-arabic">إِذْ
+              ذَهَبَ</span> harus dibaca <em>IDZ-DZAHABA</em>. Serta contoh Ba' (<span class="text-arabic">بْ</span>)
+            bertemu sesama Ba' (<span class="text-arabic">ب</span>) yaitu <span class="text-arabic">اِذْهَبْ
+              بِكِتَابِيْ</span> harus dibaca <em>IDZHAB-BIKITAABI</em>. Serta contoh Mim (<span
+              class="text-arabic">مْ</span>)
+            bertemu sesama Mim (<span class="text-arabic">م</span>) yaitu <span class="text-arabic">وَهُمْ
+              مُهْتَدُونَ</span> harus dibaca <em>WAHUM-MUHTADUUN</em>. Kecuali huruf Waw Sukun (<span
+              class="text-arabic">وْ</span>)
+            bertemu Waw (<span class="text-arabic">و</span>) dan Ya Sukun (<span class="text-arabic">يْ</span>)
+            bertemu Ya (<span class="text-arabic">ي</span>), membacanya tidak boleh diidghamkan, tetapi
+            harus dibaca panjang atau Mad, misalnya <span class="text-arabic">اَمَنُوْا وَتَوَاصَوْا</span>
+            dan <span class="text-arabic">فِيْ يَوْمٍ ذِيْ مَسْغَبَةٍ</span>.
+          </p>
+          <div class="contoh-box">
+            <p><strong>Contoh-contoh lain:</strong></p>
+            <div class="halqi-grid">
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(بْ - ب)</span></small> <span class="text-arabic">فَلْيَكْتُبْ
+                    بَيْنَكُمْ</span></li>
+                <li><small><span class="text-arabic">(مْ - م)</span></small> <span class="text-arabic">فِي قُلُوبِهِمْ
+                    مَرَضٌ</span></li>
+                <li><small><span class="text-arabic">(لْ - ل)</span></small> <span class="text-arabic">أَلَمْ أَقُلْ
+                    لَكَ</span></li>
+              </ul>
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(بْ - ب)</span></small> <span class="text-arabic">اِضْرِبْ
+                    بِعَصَاكَ</span></li>
+                <li><small><span class="text-arabic">(تْ - ت)</span></small> <span class="text-arabic">فَمَا رَبِحَتْ
+                    تِجَارَتُهُمْ</span></li>
+                <li><small><span class="text-arabic">(عْ - ع)</span></small> <span class="text-arabic">مَا لَمْ تَسْطِعْ
+                    عَلَيْهِ</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ! Idgham Mutajanisain -->
+        <section id="idgham-mutajanisain" class="doc-section">
+          <h1 class="doc-title">2. Idgham Mutajanisain (<span class="text-arabic">إِدْغَامُ مُتَجَانِسَيْنِ</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> <em>Mutajanisain</em> artinya dua sama jenis. Hukum bacaan disebut <em>Idgham
+              Mutajanisain</em> ialah bila ada suatu huruf yang sukun berhadapan dengan huruf yang
+            berharakat, kedua-dua huruf itu sama makhrojnya dan lain sifatnya.
+          </p>
+          <p class="doc-text">
+            <strong>Cara Membaca:</strong> Memasukkan atau mengidghamkan huruf pertama pada huruf kedua.
+            Sebagai contoh huruf pertama Dal (<span class="text-arabic">دْ</span>) bertemu dengan Ta' (<span
+              class="text-arabic">ت</span>) yaitu <span class="text-arabic">لَقَدْ تَابَ</span> tidak boleh dibaca
+            <em>LAQOD-TABA</em>,
+            melainkan harus dibaca dengan idgham atau ditasydidkan sehingga dibaca <em>LAQOTTAABA</em>.
+            Dan begitulah seterusnya.
+          </p>
+          <div class="contoh-box">
+            <p><strong>Contoh-contoh lain:</strong></p>
+            <div class="halqi-grid">
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(دْ - ت)</span></small> <span class="text-arabic">مَا
+                    عَبَدْتُمْ</span>
+                </li>
+                <li><small><span class="text-arabic">(ذْ - ظ)</span></small> <span class="text-arabic">اِذْ
+                    ظَلَمُوا</span>
+                </li>
+                <li><small><span class="text-arabic">(لْ - ر)</span></small> <span class="text-arabic">قُلْ رَبِّ</span>
+                </li>
+              </ul>
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(تْ - ط)</span></small> <span class="text-arabic">آمَنَتْ
+                    طَائِفَةٌ</span></li>
+                <li><small><span class="text-arabic">(تْ - د)</span></small> <span class="text-arabic">أُجِيبَتْ
+                    دَعْوَتُكُمَا</span></li>
+                <li><small><span class="text-arabic">(طْ - ت)</span></small> <span class="text-arabic">لَئِنْ
+                    بَسَطْتَ</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ! Idgham Mutaqoribain -->
+        <section id="idgham-mutaqoribain" class="doc-section">
+          <h1 class="doc-title">3. Idgham Mutaqoribain (<span class="text-arabic">إِدْغَامُ مُتَقَارِبَيْنِ</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> <em>Mutaqoribain</em> artinya dua berdekatan. Hukum bacaan disebut <em>Idgham
+              Mutaqoribain</em> ialah dua huruf yang berhadap-hadapan itu hampir berdekatan makhroj dan
+            sifatnya, dan pertama sukun dan yang kedua berharakat.
+          </p>
+          <p class="doc-text"><strong>Cara Membaca:</strong> Membacanya harus diidghamkan atau ditasydidkan huruf
+            pertama pada huruf kedua.</p>
+          <div class="contoh-box">
+            <p><strong>Contoh-contoh lain:</strong></p>
+            <div class="halqi-grid">
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(قْ - ك)</span></small> <span class="text-arabic">أَلَمْ
+                    نَخْلُقْكُمْ</span></li>
+                <li><small><span class="text-arabic">(بْ - م)</span></small> <span class="text-arabic">اِرْكَبْ
+                    مَعَنَا</span>
+                </li>
+              </ul>
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(ثْ - ذ)</span></small> <span class="text-arabic">يَلْهَثْ
+                    ذَٰلِكَ</span>
+                </li>
+                <li><small><span class="text-arabic">(تْ - ث)</span></small> <span class="text-arabic">كَذَّبَتْ
+                    ثَمُودُ</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- ! Tiga Macam Idgham End-->
+
+      <hr class="section-divider">
+
+      <!-- ! Lam Ta'rif -->
+      <section>
+        <h1 class="doc-title-section">Lam Ta'rif</h1>
+
+        <!-- ! Idh-har Qomariyah -->
+        <section id="idhhar-qomariyah" class="doc-section">
+          <h1 class="doc-title">1. Idh-har Qomariyah (<span class="text-arabic">إِظْهَارُ قَمَرِيَّة</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> <em>Qomariyah</em> artinya bulan. Hukum bacaan disebut
+            <em>Idh-har Qomariyah</em> adalah bila Alif dan Lam (<span class="text-arabic">ال</span>)
+            bertemu dengan salah satu huruf qomariyah.
+          </p>
+          <p class="doc-text"><strong>Cara Membaca:</strong> Cara membacanya harus dijelaskan atau di-idh-harkan.</p>
+          <div class="contoh-box">
+            <p><strong>Contoh-contoh Idh-har Qomariyah:</strong></p>
+            <div class="halqi-grid">
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(ال - ء)</span></small><span class="text-arabic">الْأَبْتَرُ</span>
+                </li>
+                <li><small><span class="text-arabic">(ال - ب)</span></small><span
+                    class="text-arabic">الْبَيِّنَةُ</span></li>
+                <li><small><span class="text-arabic">(ال - غ)</span></small><span
+                    class="text-arabic">الْغَاشِيَةُ</span></li>
+                <li><small><span class="text-arabic">(ال - ح)</span></small><span class="text-arabic">الْحَطَمَةُ</span>
+                </li>
+                <li><small><span class="text-arabic">(ال - ج)</span></small><span class="text-arabic">الْجَحِيمُ</span>
+                </li>
+                <li><small><span class="text-arabic">(ال - ك)</span></small><span class="text-arabic">الْكَوْثَرُ</span>
+                </li>
+                <li><small><span class="text-arabic">(ال - و)</span></small><span
+                    class="text-arabic">الْوَسْوَاسِ</span></li>
+              </ul>
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(ال - خ)</span></small><span class="text-arabic">الْخَنَّاسُ</span>
+                </li>
+                <li><small><span class="text-arabic">(ال - ف)</span></small><span class="text-arabic">الْفِيلُ</span>
+                </li>
+                <li><small><span class="text-arabic">(ال - ع)</span></small><span class="text-arabic">الْعُقَدِ</span>
+                </li>
+                <li><small><span class="text-arabic">(ال - ق)</span></small><span
+                    class="text-arabic">الْقَارِعَةُ</span></li>
+                <li><small><span class="text-arabic">(ال - ي)</span></small><span class="text-arabic">الْيَتِيمُ</span>
+                </li>
+                <li><small><span class="text-arabic">(ال - م)</span></small><span
+                    class="text-arabic">الْمِسْكِينُ</span></li>
+                <li><small><span class="text-arabic">(ال - ه)</span></small><span class="text-arabic">الْهُدَى</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ! Idgham Syamsiyah -->
+        <section id="idgham-syamsiyah" class="doc-section">
+          <h1 class="doc-title">2. Idgham Syamsiyah (<span class="text-arabic">إِدْغَامُ شَمْسِيَّة</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> <em>Syamsiyah</em> artinya Matahari. Hukum bacaan disebut
+            <em>Idgham Syamsiyah</em> adalah bila Alif dan Lam (<span class="text-arabic">ال</span>)
+            bertemu dengan huruf-huruf hijaiyah selain huruf-huruf Qomariyah.
+          </p>
+          <p class="doc-text">
+            <strong>Cara Membaca:</strong> Cara membacanya dengan meng-idghamkan atau mentasydidkan pada
+            huruf syamsiyah, sehingga Alif-Lam (<span class="text-arabic">ال</span>) tidak terbaca lagi
+            meskipun tulisannya tetap ada. Misalkan Alif-Lam (<span class="text-arabic">ال</span>) yang
+            bertemu dengan Sin (<span class="text-arabic">س</span>) <span class="text-arabic">السَّبُّورَةُ</span>
+            dibaca ASSABBUUROH, Alif-Lam (<span class="text-arabic">ال</span>) tetap ada
+            tetapi tidak dibunyikan, Sin (<span class="text-arabic">س</span>) ditasydidkan, maka tidak boleh dibaca
+            AL - SABBUUROH.
+          </p>
+          <div class="contoh-box">
+            <p><strong>Contoh-contoh Idgham Syamsiyah:</strong></p>
+            <div class="halqi-grid">
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(ال - ط)</span></small><span class="text-arabic">الطَّارِقُ</span>
+                </li>
+                <li><small><span class="text-arabic">(ال - ث)</span></small><span class="text-arabic">الثَّاقِبُ</span>
+                </li>
+                <li><small><span class="text-arabic">(ال - ص)</span></small><span class="text-arabic">الصَّيْفُ</span>
+                </li>
+                <li><small><span class="text-arabic">(ال - ر)</span></small><span class="text-arabic">الرَّحْمَنُ</span>
+                </li>
+                <li><small><span class="text-arabic">(ال - ت)</span></small><span
+                    class="text-arabic">التَّكَاثُرُ</span></li>
+                <li><small><span class="text-arabic">(ال - ض)</span></small><span class="text-arabic">الضُّحَى</span>
+                </li>
+                <li><small><span class="text-arabic">(ال - ذ)</span></small><span class="text-arabic">الذِّكْرَى</span>
+                </li>
+              </ul>
+              <ul class="halqi-col">
+                <li><small><span class="text-arabic">(ال - ن)</span></small><span class="text-arabic">النَّاسُ</span>
+                </li>
+                <li><small><span class="text-arabic">(ال - د)</span></small><span class="text-arabic">الدِّينُ</span>
+                </li>
+                <li><small><span class="text-arabic">(ال - س)</span></small><span class="text-arabic">السَّائِلُ</span>
+                </li>
+                <li><small><span class="text-arabic">(ال - ظ)</span></small><span class="text-arabic">الظَّاهِرُ</span>
+                </li>
+                <li><small><span class="text-arabic">(ال - ز)</span></small><span
+                    class="text-arabic">الزَّيْتُونُ</span></li>
+                <li><small><span class="text-arabic">(ال - ش)</span></small><span class="text-arabic">الشِّتَاءِ</span>
+                </li>
+                <li><small><span class="text-arabic">(ال - ل)</span></small><span class="text-arabic">اللَّيْلُ</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </section>
+      <!-- ! Lam Ta'rif End -->
+
+      <hr class="section-divider">
+
+      <!-- ! Pasal 6: Tarqiq dan Tafkhim -->
+      <section>
+        <h1 class="doc-title-section">Tarqiq dan Tafkhim</h1>
+        <p class="doc-text">
+          Huruf <strong>Lam (<span class="text-arabic">ل</span>)</strong> dan <strong>Ro' (<span class="text-arabic">ر</span>)</strong> ada yang dibaca tebal (<em>Tafkhim</em> / <span class="text-arabic">تَفْخِيْم</span>) dan ada pula yang dibaca tipis (<em>Tarqiq</em> / <span class="text-arabic">تَرْقِيْق</span>). Sedangkan untuk huruf Ro' ada juga kondisi di mana boleh dibaca tipis maupun tebal.
+        </p>
+
+        <!-- ! 1. Lam Mufakhkhomah -->
+        <section id="lam-mufakhkhomah" class="doc-section">
+          <h1 class="doc-title">1. Lam Mufakhkhomah (<span class="text-arabic">لاَمُ المَفَخَّمَة</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian & Cara Membaca:</strong> Huruf Lam yang terdapat pada lafadh Jalalah (<strong><span class="text-arabic">الله</span></strong>) harus dibaca tebal atau <em>Tafkhim</em> dengan cara mengangkat lidah ke langit-langit atas. Dibaca tafkhim apabila lafadh Allah didahului oleh huruf berharakat <strong>Fathah</strong> atau <strong>Dammah</strong>
+          </p>
+          <div class="contoh-box">
+            <p><strong>Contoh Bacaan:</strong></p>
+            <div class="halqi-grid">
+              <ul class="halqi-col">
+                <li><small>Fathah + Allah:</small> <span class="text-arabic">شَهِدَ اللهُ</span></li>
+              </ul>
+              <ul class="halqi-col">
+                <li><small>Dammah + Allah:</small> <span class="text-arabic">رَسُولُ اللهِ</span> / <span class="text-arabic">اللَّهُمَّ</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ! 2. Lam Muroqqoqoh -->
+        <section id="lam-muroqqoqoh" class="doc-section">
+          <h1 class="doc-title">2. Lam Muroqqoqoh (<span class="text-arabic">لاَمُ المُرَقَّقَة</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian & Cara Membaca:</strong> Huruf Lam harus dibaca tipis (<em>Tarqiq</em>) dalam dua keadaan.
+          </p>
+          <p class="doc-text">
+            a) Lam dalam lafadh Jalalah (<strong><span class="text-arabic">الله</span></strong>) jika didahului huruf berharakat <strong>Kasrah</strong>.<br>
+            b) Lam yang terdapat dalam <strong>semua perkataan bahasa Arab selain lafadh Allah</strong>
+          </p>
+          <div class="contoh-box">
+            <p><strong>Contoh Bacaan:</strong></p>
+            <div class="halqi-grid">
+              <ul class="halqi-col">
+                <li><small>Lafadh Allah (Kasrah):</small> <span class="text-arabic">بِسْمِ اللهِ</span> <span class="text-arabic">دِينِ اللهِ</span> <span class="text-arabic">بِاللهِ</span></li>
+              </ul>
+              <ul class="halqi-col">
+                <li><small>Kata Selain Allah:</small> <span class="text-arabic">لَمْ يَلِدْ وَلَمْ يُولَدْ</span> <span class="text-arabic">مَالُهُ</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ! 3. Ro' Mufakhkhomah -->
+        <section id="ro-mufakhkhomah" class="doc-section">
+          <h1 class="doc-title">3. Ro' Mufakhkhomah (<span class="text-arabic">الرَّاءُ المَفَخَّمَة</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian & Kriteria:</strong> Huruf <strong>Ro' (<span class="text-arabic">ر</span>)</strong> wajib dibaca tebal (<em>Tafkhim</em>) apabila:
+          </p>
+          <p class="doc-text">
+            a) Ro' berharakat Fathah, Fathahtain, Dammah, atau Dammahtain.<br>
+            b) Ro' sukun yang sebelumnya berharakat Fathah atau Dammah.<br>
+            c) Ro' sukun yang huruf sebelumnya berharakat Kasrah yang <em>tidak asli</em> (kasrah aridhah/tambahan).<br>
+            d) Ro' sukun dan huruf sebelumnya berharakat Kasrah asli, tetapi sesudah Ro' terdapat huruf <strong>Isti'la</strong> (<span class="text-arabic">خ, ص, ض, ط, ظ, غ, ق</span>).
+          </p>
+          <div class="contoh-box">
+            <p><strong>Contoh Bacaan:</strong></p>
+            <div class="halqi-grid">
+              <ul class="halqi-col">
+                <li><small>Ro' Fathah/Dammah:</small> <span class="text-arabic">رَبِّ الْفَلَقِ</span> <span class="text-arabic">نَاراً</span> <span class="text-arabic">أُمِرُوا</span></li>
+                <li><small>Ro' Sukun (sesudah Fathah/Dammah):</small> <span class="text-arabic">وَانْحَرْ</span> <span class="text-arabic">تَرْمِيهِمْ</span> <span class="text-arabic">زُرْتُمْ</span></li>
+              </ul>
+              <ul class="halqi-col">
+                <li><small>Kasrah Tidak Asli:</small> <span class="text-arabic">ارْجِعِي</span> <span class="text-arabic">ارْحَمْنَا</span></li>
+                <li><small>Ketemu Huruf Isti'la:</small> <span class="text-arabic">فِرْقَةٍ</span> <span class="text-arabic">قِرْطَاسٍ</span> <span class="text-arabic">مِرْصَاداً</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ! 4. Ro' Muroqqoqoh -->
+        <section id="ro-muroqqoqoh" class="doc-section">
+          <h1 class="doc-title">4. Ro' Muroqqoqoh (<span class="text-arabic">الرَّاءُ المُرَقَّقَة</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian & Kriteria:</strong> Huruf <strong>Ro' (<span class="text-arabic">ر</span>)</strong> wajib dibaca tipis (<em>Tarqiq</em>) apabila:
+          </p>
+          <p class="doc-text">
+            a) Ro' yang berharakat Kasrah di manapun letaknya pada perkataan.<br>
+            b) Ro' sukun yang sebelumnya terdapat Ya' Sukun (<span class="text-arabic">يْ</span>).<br>
+            c) Ro' sukun yang huruf sebelumnya berharakat Kasrah asli dan sesudahnya bukan huruf Isti'la.
+          </p>
+          <div class="contoh-box">
+            <p><strong>Contoh Bacaan:</strong></p>
+            <div class="halqi-grid">
+              <ul class="halqi-col">
+                <li><small>Ro' Kasrah:</small> <span class="text-arabic">رِحْلَةَ</span> <span class="text-arabic">الْقَارِعَةُ</span> <span class="text-arabic">مِنْ شَرِّ</span></li>
+                <li><small>Sesudah Ya' Sukun:</small> <span class="text-arabic">خَيْرٌ</span> <span class="text-arabic">طَيْرًا</span> <span class="text-arabic">غَيْرِ</span></li>
+              </ul>
+              <ul class="halqi-col">
+                <li><small>Ro' Sukun (Kasrah Asli):</small> <span class="text-arabic">فِرْعَوْنَ</span> <span class="text-arabic">وَاسْتَغْفِرْهُ</span> <span class="text-arabic">فَكَبِّرْهُ</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ! 5. Ro' Jawazul Wajhain -->
+        <section id="ro-jawazul-wajhain" class="doc-section">
+          <h1 class="doc-title">5. Ro' Boleh Tebal atau Tipis (<span class="text-arabic">الرَّاءُ المُرَقَّقَة أَوْ المَفَخَّمَة</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> Huruf Ro' boleh dibaca tebal (<em>Tafkhim</em>) atau tipis (<em>Tarqiq</em>) apabila Ro' itu Sukun, sedang huruf sebelumnya berharakat Kasrah dan huruf sesudahnya berupa huruf Isti'la.
+          </p>
+          <div class="contoh-box">
+            <p><strong>Contoh Bacaan:</strong></p>
+            <p><span class="text-arabic">فِرْقٍ</span> (Boleh dibaca <em>FIRQIN</em> tipis atau <em>FIR-QIN</em> tebal).</p>
+          </div>
+        </section>
+      </section>
+      <!-- ! Pasal 6 End -->
+
+      <hr class="section-divider">
+
+      <!-- ! Pasal 7: Lam Sukun pada Kata Kerja -->
+      <section>
+        <h1 class="doc-title-section">Lam Sukun pada Kata Kerja (Fi'il)</h1>
+        <section id="lam-sukun-fiil" class="doc-section">
+          <h1 class="doc-title">Hukum Bacaan Lam Sukun Fi'il</h1>
+          <p class="doc-text">
+            Ada 2 hukum bacaan untuk Lam Sukun (<span class="text-arabic">لْ</span>) yang terdapat pada kata kerja (fi'il):
+          </p>
+          <p class="doc-text">
+            <strong>1. Idh-har (Jelas):</strong> Wajib dibaca terang/jelas bila sesudah Lam Sukun tidak terdapat huruf <strong>Ra (<span class="text-arabic">ر</span>)</strong> dan <strong>Lam (<span class="text-arabic">ل</span>)</strong>. Contoh: <span class="text-arabic">قُلْ أَعُوذُ</span>, <span class="text-arabic">لَمْ يَجْعَلْ</span>, <span class="text-arabic">قُلْ أَرَأَيْتُمْ</span>.
+          </p>
+          <p class="doc-text">
+            <strong>2. Idgham (Dimasukkan):</strong> Wajib di-idghamkan dan ditasydidkan bila sesudahnya terdapat huruf Ra (<span class="text-arabic">ر</span>) atau Lam (<span class="text-arabic">ل</span>). Contoh: <span class="text-arabic">قُلْ لَهُمْ</span> dibaca <em>QULLAHUM</em>, <span class="text-arabic">قُلْ رَبِّ</span> dibaca <em>QURRABBI</em>. Disamakan juga hukumnya pada kata <span class="text-arabic">بَلْ</span> dan <span class="text-arabic">هَلْ</span>, seperti <span class="text-arabic">بَلْ رَبُّكُمْ</span>.
+          </p>
+          <blockquote class="doc-text">
+            <strong>Pengecualian Khusus:</strong> Pada surah Al-Muthaffifin: <span class="text-arabic">كَلَّا بَلْ ۜ رَانَ</span> tidak boleh diidghamkan, melainkan wajib dibaca <strong>Idh-har</strong> disertai <strong>Sakatah</strong> (berhenti sejenak tanpa bernapas).
+          </blockquote>
+        </section>
+      </section>
+      <!-- ! Pasal 7 End -->
+
+      <hr class="section-divider">
+
+      <!-- ! Pasal 8: Qolqolah -->
+      <section>
+        <h1 class="doc-title-section">Qolqolah</h1>
+        <p class="doc-text">
+          <strong>Pengertian:</strong> <em>Qolqolah</em> artinya goncangan atau pantulan suara dengan tiba-tiba sehingga terdengar suara membalik atau getaran suara. Huruf qolqolah ada 5, yaitu: <strong>Qaf (<span class="text-arabic">ق</span>), Tha (<span class="text-arabic">ط</span>), Ba (<span class="text-arabic">ب</span>), Jim (<span class="text-arabic">ج</span>), dan Dal (<span class="text-arabic">د</span>)</strong> (terkumpul dalam kalimat: <span class="text-arabic">قُطْبُ جَدٍّ</span>).
+        </p>
+
+        <!-- ! 1. Qolqolah Shughro -->
+        <section id="qolqolah-shughro" class="doc-section">
+          <h1 class="doc-title">1. Qolqolah Shughro (<span class="text-arabic">قَلْقَلَةٌ صُغْرَى</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> <em>Shughro</em> artinya lebih kecil. Disebut Qolqolah Shughro apabila salah satu huruf qolqolah berharakat <strong>sukun asli</strong> di tengah kata.
+          </p>
+          <p class="doc-text"><strong>Cara Membaca:</strong> Membacanya harus memantul/bergoncang secara ringan.</p>
+          <div class="contoh-box">
+            <p><strong>Contoh Bacaan:</strong></p>
+            <div class="halqi-grid">
+              <ul class="halqi-col">
+                <li><span class="text-arabic">يَقْطَعُونَ</span></li>
+                <li><span class="text-arabic">Tَطْغَىٰ</span></li>
+                <li><span class="text-arabic">Iِبِالصَّبْرِ</span></li>
+              </ul>
+              <ul class="halqi-col">
+                <li><span class="text-arabic">Tَجْعَلْ</span></li>
+                <li><span class="text-arabic">Iِيَدْخُلُونَ</span></li>
+                <li><span class="text-arabic">Tَتَقْوِيمٍ</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ! 2. Qolqolah Kubro -->
+        <section id="qolqolah-kubro" class="doc-section">
+          <h1 class="doc-title">2. Qolqolah Kubro (<span class="text-arabic">قَلْقَلَةٌ كُبْرَى</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> <em>Kubro</em> artinya lebih besar. Disebut Qolqolah Kubro apabila salah satu huruf qolqolah mati/sukun <strong>karena diwaqofkan</strong> (berhenti) di akhir kalimat.
+          </p>
+          <p class="doc-text"><strong>Cara Membaca:</strong> Membacanya harus berkumandang dan pantulannya lebih jelas/tebal.</p>
+          <div class="contoh-box">
+            <p><strong>Contoh Bacaan:</strong></p>
+            <div class="halqi-grid">
+              <ul class="halqi-col">
+                <li><span class="text-arabic">قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ</span> (Dibaca: <em>AL-FALAQ</em>)</li>
+                <li><span class="text-arabic">مِنْ وَرَائِهِمْ مُحِيطٌ</span> (Dibaca: <em>MUHIITH</em>)</li>
+              </ul>
+              <ul class="halqi-col">
+                <li><span class="text-arabic">إِذَا وَقَبَ</span> (Dibaca: <em>WAQAB</em>)</li>
+                <li><span class="text-arabic">وَالسَّمَاءِ ذَاتِ الْبُرُوجِ</span> (Dibaca: <em>AL-BURUUJ</em>)</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- ! Pasal 8 End -->
+
+      <hr class="section-divider">
+
+      <!-- ! Pasal 9: Bacaan Panjang (Mad) -->
+      <section>
+        <h1 class="doc-title-section">Hukum Bacaan Panjang (Mad)</h1>
+        <p class="doc-text">
+          <em>Mad</em> secara bahasa artinya panjang. Memanjangkan bacaan suara huruf dapat sepanjang 1 alif (2 harakat), 2 alif (4 harakat), hingga 3 alif (6 harakat).
+        </p>
+
+        <!-- 1. Mad Thobi'i -->
+        <section id="mad-thobii" class="doc-section">
+          <h1 class="doc-title">1. Mad Thobi'i (<span class="text-arabic">مَدّ طَبِيعِيّ</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> <em>Thobi'i</em> artinya biasa. Berlaku jika terdapat:
+            <br>1) Huruf dammah bertemu <strong>Waw Sukun (<span class="text-arabic">وۡ</span>)</strong>.
+            <br>2) Huruf kasrah bertemu <strong>Ya Sukun (<span class="text-arabic">يۡ</span>)</strong>.
+            <br>3) Huruf fathah bertemu <strong>Alif (<span class="text-arabic">ا</span>)</strong>.
+          </p>
+          <p class="doc-text"><strong>Cara Membaca:</strong> Wajib dipanjangkan 1 alif (2 harakat). Contoh: <span class="text-arabic">نُوحِيهَا</span>.</p>
+        </section>
+
+        <!-- 2. Mad Wajib Muttashil -->
+        <section id="mad-wajib-muttashil" class="doc-section">
+          <h1 class="doc-title">2. Mad Wajib Muttashil (<span class="text-arabic">مَدّ وَاجِب مُتَّصِل</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> Apabila Mad Thobi'i bertemu dengan <strong>Hamzah (<span class="text-arabic">ء</span>) dalam satu kata</strong>.
+          </p>
+          <p class="doc-text"><strong>Cara Membaca:</strong> Wajib dipanjangkan 2.5 alif (5 harakat). Contoh: <span class="text-arabic">جَاءَ</span>, <span class="text-arabic">السَّمَاءِ</span>, <span class="text-arabic">أُولَٰئِكَ</span>.</p>
+        </section>
+
+        <!-- 3. Mad Jaiz Munfashil -->
+        <section id="mad-jaiz-munfashil" class="doc-section">
+          <h1 class="doc-title">3. Mad Jaiz Munfashil (<span class="text-arabic">مَدّ جَائِز مُنْفَصِل</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> Apabila Mad Thobi'i bertemu dengan <strong>Hamzah (<span class="text-arabic">ء</span>) di lain kata</strong>.
+          </p>
+          <p class="doc-text"><strong>Cara Membaca:</strong> Boleh dipanjangkan 2.5 alif (5 harakat) atau dipanjangkan 1 alif (2 harakat) seperti Mad Thobi'i. Contoh: <span class="text-arabic">يَا أَيُّهَا</span>, <span class="text-arabic">فِي أَحْسَنِ</span>.</p>
+        </section>
+
+        <!-- 4. Mad Lazim Mutsaqqol Kilmi -->
+        <section id="mad-lazim-mutsaqqol-kilmi" class="doc-section">
+          <h1 class="doc-title">4. Mad Lazim Mutsaqqol Kilmi (<span class="text-arabic">مَدّ لَازِم مُثَقَّل كِلْمِي</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> Apabila Mad Thobi'i berhadapan dengan huruf <strong>bertasydid</strong> dalam satu kata.
+          </p>
+          <p class="doc-text"><strong>Cara Membaca:</strong> Wajib dipanjangkan 3 alif (6 harakat) lalu masuk ke huruf bertasydid. Contoh: <span class="text-arabic">وَلَا الضَّالِّينَ</span>, <span class="text-arabic">الصَّاخَّةُ</span>.</p>
+        </section>
+
+        <!-- 5. Mad Lazim Mukhoffaf Kilmi -->
+        <section id="mad-lazim-mukhoffaf-kilmi" class="doc-section">
+          <h1 class="doc-title">5. Mad Lazim Mukhoffaf Kilmi (<span class="text-arabic">مَدّ لَازِم مُخَفَّف كِلْمِي</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> Apabila Mad Thobi'i bertemu dengan huruf berharakat <strong>sukun</strong> tidak di akhir perkataan.
+          </p>
+          <p class="doc-text"><strong>Cara Membaca:</strong> Dipanjangkan 3 alif (6 harakat). Contoh dalam Al-Qur'an hanya ada pada kata: <span class="text-arabic">آلْآنَ</span>.</p>
+        </section>
+
+        <!-- 6. Mad Lein -->
+        <section id="mad-lein" class="doc-section">
+          <h1 class="doc-title">6. Mad Lein (<span class="text-arabic">مَدّ لَيْن</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> Apabila ada huruf Waw Sukun (<span class="text-arabic">وۡ</span>) atau Ya Sukun (<span class="text-arabic">يۡ</span>) yang huruf sebelumnya berharakat <strong>Fathah</strong>.
+          </p>
+          <p class="doc-text"><strong>Cara Membaca:</strong> Dibaca lunak dan lemas, tidak dipanjangkan kecuali saat waqof. Contoh: <span class="text-arabic">خَوْفٍ</span>, <span class="text-arabic">قُرَيْشٍ</span>, <span class="text-arabic">الصَّيْفِ</span>.</p>
+        </section>
+
+        <!-- 7. Mad 'Aridl Lissukun -->
+        <section id="mad-aridl-lissukun" class="doc-section">
+          <h1 class="doc-title">7. Mad 'Aridl Lissukun (<span class="text-arabic">مَدّ عَارِض لِلسُّكُون</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> Apabila ada Mad Thobi'i atau Mad Lein sesudahnya ada <strong>Waqof (tempat berhenti)</strong>.
+          </p>
+          <p class="doc-text"><strong>Cara Membaca:</strong> Memilik 3 cara baca: 3 alif (6 harakat - paling utama), 2 alif (4 harakat), atau 1 alif (2 harakat). Contoh: <span class="text-arabic">رَبِّ الْعَالَمِينَ</span>, <span class="text-arabic">مَلِكِ النَّاسِ</span>.</p>
+        </section>
+
+        <!-- 8. Mad Shilah Qoshiroh -->
+        <section id="mad-shilah-qoshiroh" class="doc-section">
+          <h1 class="doc-title">8. Mad Shilah Qoshiroh (<span class="text-arabic">مَدّ صِلَة قَصِيرَة</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> Apabila ada <strong>Ha Dhomir (<span class="text-arabic">ـه / ه</span>)</strong> kata ganti orang/benda ketiga berada di antara huruf berharakat.
+          </p>
+          <p class="doc-text"><strong>Cara Membaca:</strong> Dipanjangkan 1 alif (2 harakat). Contoh: <span class="text-arabic">إِنَّهُ كَانَ</span>, <span class="text-arabic">لِرَبِّهِ لَكَنُودٌ</span>. <em>Catatan: Jika Ha Dhomir didahului sukun, maka dibaca pendek (tidak dipanjangkan).</em></p>
+        </section>
+
+        <!-- 9. Mad Shilah Thowilah -->
+        <section id="mad-shilah-thowilah" class="doc-section">
+          <h1 class="doc-title">9. Mad Shilah Thowilah (<span class="text-arabic">مَدّ صِلَة طَوِيلَة</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> Apabila Mad Shilah Qoshiroh bertemu dengan <strong>Hamzah (<span class="text-arabic">ء</span>)</strong>.
+          </p>
+          <p class="doc-text"><strong>Cara Membaca:</strong> Dipanjangkan seperti Mad Jaiz Munfashil (2.5 alif / 5 harakat). Contoh: <span class="text-arabic">أَنَّ مَالَهُ أَخْلَدَهُ</span>.</p>
+        </section>
+
+        <!-- 10. Mad 'Iwadl -->
+        <section id="mad-iwadl" class="doc-section">
+          <h1 class="doc-title">10. Mad 'Iwadl (<span class="text-arabic">مَدّ عِوَض</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> <em>'Iwadl</em> artinya ganti tanwin. Berlaku jika terdapat <strong>Fathahtain (<span class="text-arabic">ــًـ</span>)</strong> pada akhir kata yang diwaqofkan (berhenti).
+          </p>
+          <p class="doc-text"><strong>Cara Membaca:</strong> Tanwin diganti menjadi bacaan panjang 1 alif (2 harakat). Contoh: <span class="text-arabic">أَفْوَاجًا</span> dibaca <em>AFWAAJAA</em>.</p>
+        </section>
+
+        <!-- 11. Mad Badal -->
+        <section id="mad-badal" class="doc-section">
+          <h1 class="doc-title">11. Mad Badal (<span class="text-arabic">مَدّ بَدَل</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> <em>Badal</em> artinya perubahan. Berlaku apabila ada Hamzah bertemu Mad yang berasal dari Hamzah sukun yang diganti menjadi Alif, Waw, atau Ya.
+          </p>
+          <p class="doc-text"><strong>Cara Membaca:</strong> Dipanjangkan 1 alif (2 harakat). Contoh: <span class="text-arabic">آدَمُ</span> (asalnya <span class="text-arabic">أَأْدَمُ</span>), <span class="text-arabic">إِيمَانٌ</span> (asalnya <span class="text-arabic">إِئْمَانٌ</span>).</p>
+        </section>
+
+        <!-- 12. Mad Lazim Charfi Mukhoffaf -->
+        <section id="mad-lazim-charfi-mukhoffaf" class="doc-section">
+          <h1 class="doc-title">12. Mad Lazim Charfi Mukhoffaf (<span class="text-arabic">مَدّ لَازِم حَرْفِي مُخَفَّف</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> Huruf di awal surah yang terdiri dari huruf: <strong><span class="text-arabic">ح, ي, ط, هـ, ر</span></strong> (Terkumpul dalam kalimat: <span class="text-arabic">حَيٌّ طَهُرَ</span>).
+          </p>
+          <p class="doc-text"><strong>Cara Membaca:</strong> Dipanjangkan 1 alif (2 harakat). Contoh: <span class="text-arabic">طه</span>, <span class="text-arabic">الر</span>.</p>
+        </section>
+
+        <!-- 13. Mad Lazim Charfi Mutsaqqol -->
+        <section id="mad-lazim-charfi-mutsaqqol" class="doc-section">
+          <h1 class="doc-title">13. Mad Lazim Charfi Mutsaqqol (<span class="text-arabic">مَدّ لَازِم حَرْفِي مُثَقَّل</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> Huruf pembuka surah dari huruf: <strong><span class="text-arabic">ن, ق, ص, ع, س, ل, ك, م</span></strong> (<span class="text-arabic">نَقَصَ عَسَلُكُمْ</span>) yang diikuti suara huruf mati yang <strong>diidghamkan/ditasydidkan</strong>.
+          </p>
+          <p class="doc-text"><strong>Cara Membaca:</strong> Dipanjangkan 3 alif (6 harakat). Contoh: <span class="text-arabic">الم</span> (pada huruf Lam bertemu Mim).</p>
+        </section>
+
+        <!-- 14. Mad Lazim Musyabba' -->
+        <section id="mad-lazim-musyabba" class="doc-section">
+          <h1 class="doc-title">14. Mad Lazim Musyabba' (<span class="text-arabic">مَدّ لَازِم مُشَبَّع</span>)</h1>
+          <p class="doc-text">
+            <strong>Pengertian:</strong> Sama seperti Mad Lazim Charfi, hanya saja sesudah Mad terdapat suara huruf mati yang <strong>tidak diidghamkan</strong>.
+          </p>
+          <p class="doc-text"><strong>Cara Membaca:</strong> Dipanjangkan 3 alif (6 harakat). Contoh: <span class="text-arabic">ق ۚ وَالْقُرْآنِ</span>, <span class="text-arabic">يس</span>, <span class="text-arabic">ص</span>.</p>
+        </section>
+
+      </section>
+      <!-- ! Pasal 9 End -->
+
+      <hr class="section-divider">
+
+      <!-- ! Pasal 10: Waqof -->
+      <main>
+        <h1 class="doc-title-section">Waqof</h1>
+
+        <!-- 1. Keadaan Huruf Akhir -->
+        <section id="waqof-keadaan" class="doc-section">
+          <h1 class="doc-title">1. Pengertian & Keadaan Huruf Akhir Ketika Waqof</h1>
+          <p class="doc-text">
+            <strong>Waqof</strong> adalah berhenti sejenak atau putus bunyi suara dan berganti napas di akhir kata tempatnya di akhir kata. Keadaan huruf akhir kata ketika hendak diwaqofkan ada enam macam:
+          </p>
+          
+          <ol type="a" class="doc-text" style="padding-left: 20px;">
+            <li>
+              <strong>Berakhiran Sukun Asli:</strong> Cara membacanya harus dibunyikan mati dengan terang menurut bacaan yang semestinya (apakah qolqolah atau tidak, dsb).
+              <br><em>Contoh:</em> <span class="text-arabic">لِرَبِّكَ وَانْحَرْ</span> dibaca <span class="text-arabic">لِرَبِّكَ وَانْحَرْ</span>
+            </li>
+            <br>
+            <li>
+              <strong>Berakhiran Harakat (Fathah, Dammah, Kasrah & Tanwin selain Fathahtain):</strong> Membacanya harus disukunkan terlebih dahulu kemudian dibaca mati dengan terang.
+              <br><em>Contoh:</em> <span class="text-arabic">إِذَا وَقَبَ</span> dibaca <span class="text-arabic">إِذَا وَقَبْ</span>
+            </li>
+            <br>
+            <li>
+              <strong>Berakhiran Ta' Marbuthah (ة):</strong> Membacanya dengan mengubah Ta' Marbuthah tersebut menjadi Ha' sukun (<span class="text-arabic">هْ</span>)
+              <br><em>Contoh:</em> <span class="text-arabic">صُحُفًا مُطَهَّرَةً</span> dibaca <span class="text-arabic">صُحُفًا مُطَهَّرَةْ</span>
+            </li>
+            <br>
+            <li>
+              <strong>Berakhiran Huruf yang Didahului Huruf Mati:</strong> Membacanya dibunyikan sepenuhnya dengan menyuarakan setengah huruf yang terakhir secara pendek.
+              <br><em>Contoh:</em> <span class="text-arabic">وَالْفَجْرُ</span> dibaca <span class="text-arabic">وَالْفَجْرْ</span> (dengan setengah suara Ro')
+            </li>
+            <br>
+            <li>
+              <strong>Berakhiran Huruf Mad atau Mad Lein:</strong> Membacanya dengan mematikan huruf terakhir dan dibaca panjang seperti Mad 'Arid Lissukun.
+              <br><em>Contoh:</em> <span class="text-arabic">رَبِّ الْعَالَمِينَ</span> dibaca <span class="text-arabic">رَبِّ الْعَالَمِينْ</span>
+            </li>
+            <br>
+            <li>
+              <strong>Berakhiran Fathahtain (اً):</strong> Membacanya dengan membunyikan Fathahtain menjadi fathah yang dibaca panjang dua harakat (berubah menjadi Mad 'Iwadl).
+              <br><em>Contoh:</em> <span class="text-arabic">فَأَنْبَتْنَا فِيهَا حَبًّا</span> dibaca <span class="text-arabic">فَأَنْبَتْنَا فِيهَا حَبَّا</span>
+            </li>
+          </ol>
+        </section>
+
+        <!-- Saktah -->
+        <section id="saktah" class="doc-section">
+          <h1 class="doc-title">2. Saktah (<span class="text-arabic">السَّكْتَة</span>)</h1>
+          <p class="doc-text">
+            <strong>Saktah</strong> adalah diam sejenak tanpa mengambil napas. Di dalam Al-Qur'an terdapat 4 tempat yang harus dibaca saktah:
+          </p>
+          <ol type="a" class="doc-text" style="padding-left: 20px;">
+            <li>Surat Al-Kahfi ayat 1: <span class="text-arabic">عِوَجًا ۜ قَيِّمًا</span></li>
+            <li>Surat Yasin ayat 52: <span class="text-arabic">مِنْ مَرْقَدِنَا ۜ هٰذَا</span></li>
+            <li>Surat Al-Qiyamah ayat 27: <span class="text-arabic">وَقِيلَ مَنْ ۜ رَاقٍ</span></li>
+            <li>Surat Al-Muthaffifin ayat 14: <span class="text-arabic">كَلَّا بَلْ ۜ رَانَ</span></li>
+          </ol>
+        </section>
+
+        <!-- Tanda-Tanda Waqof -->
+        <section id="tanda-waqof" class="doc-section">
+          <h1 class="doc-title">3. Tanda-Tanda Waqof</h1>
+          <p class="doc-text">
+            Beberapa tanda waqof yang sering dijumpai dalam Mushaf Al-Qur'an:
+          </p>
+          <ol type="a" class="doc-text" style="padding-left: 20px;">
+            <li>
+              <strong>م (Waqof Lazim):</strong> Harus berhenti pada kata yang terdapat tanda tersebut.
+              <br><em>Contoh:</em> <span class="text-arabic">مَاذَا أَرَادَ اللَّهُ بِهَذَا مَثَلًا ۘ يُضِلُّ بِهِ كَثِيرًا</span>
+            </li>
+            <br>
+            <li>
+              <strong>ط (Waqof Muthlaq):</strong> Lebih baik berhenti pada kata yang terdapat tanda tersebut daripada disambung dengan kata berikutnya.
+              <br><em>Contoh:</em> <span class="text-arabic">مَالِكِ يَوْمِ الدِّينِ ۗ</span>
+            </li>
+            <br>
+            <li>
+              <strong>ج (Waqof Ja-iz):</strong> Boleh berhenti pada kata yang terdapat tanda tersebut dan boleh juga disambung dengan kata berikutnya.
+              <br><em>Contoh:</em> <span class="text-arabic">وَمَا أُنزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ</span>
+            </li>
+            <br>
+            <li>
+              <strong>ز (Waqof Mujawwaz):</strong> Boleh berhenti pada kata yang terdapat tanda tersebut, akan tetapi jika disambung dengan kata berikutnya akan lebih baik.
+              <br><em>Contoh:</em> <span class="text-arabic">أُولَئِكَ الَّذِينَ اشْتَرَوُا الْحَيُوَةَ الدُّنْيَا بِالْآخِرَةِ فَلَا يُخَفَّفُ عَنْهُمُ الْعَذَابُ وَلَا هُمْ يُنصَرُونَ</span>
+            </li>
+            <br>
+            <li>
+              <strong>ص (Waqof Murakh-khash):</strong> Diberi kebebasan berhenti pada kata yang terdapat tanda tersebut karena darurat, yang disebabkan oleh panjangnya ayat atau kehabisan napas.
+              <br><em>Contoh:</em> <span class="text-arabic">وَالسَّمَاءَ بِنَاءٌ وَأَنْزَلَ</span>
+            </li>
+            <br>
+            <li>
+              <strong>قف (Waqof Mustachab):</strong> Sebaiknya berhenti, tetapi tidaklah salah bila disambung dengan suku kata yang berikutnya.
+              <br><em>Contoh:</em> <span class="text-arabic">وَإِذْ أَخَذْنَا مِيثَاقَ بَنِي إِسْرَائِيلَ لَا تَعْبُدُونَ إِلَّا اللَّهَ ۚ وَبِالْوَالِدَيْنِ</span>
+            </li>
+            <br>
+            <li>
+              <strong>لا (Washol):</strong> Larangan berhenti, kecuali jika di bawahnya terdapat tanda awal ayat yang membolehkan waqof secara muthlaq, maka boleh berhenti tanpa diulangi lagi.
+              <br><em>Contoh:</em> <span class="text-arabic">كُلَّمَا رُزِقُوا مِنْهَا مِنْ ثَمَرَةٍ رِزْقًا قَالُوا هَذَا الَّذِي رُزِقْنَا مِنْ قَبْلُ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ</span>
+            </li>
+            <br>
+            <li>
+              <strong>صلے (Waqof Mustachabwaslah):</strong> Baik disambung.
+              <br><em>Contoh:</em> <span class="text-arabic">كُلِّ مَنْ عَلَيْهَا فَانٍ ۗ وَيَبْقَى وَجْهُ رَبِّكَ</span>
+            </li>
+            <br>
+            <li>
+              <strong>∴ ∴ (Waqof Mu'anaqoh / Titik Tiga):</strong> Boleh berhenti pada salah satu kata yang ada tanda tersebut diatasnya.
+              <br><em>Contoh:</em> <span class="text-arabic">ذَلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِلْمُتَّقِينَ</span>
+            </li>
+            <br>
+            <li>
+              <strong>ۛ (Waqof Sima'ie):</strong> Yaitu tempat waqof Nabi, waqof Gufron, dan waqof Munzal (waqof Jibril).
+              <br><em>Contoh:</em> <span class="text-arabic">وَمَا تَفْعَلُوا مِنْ خَيْرٍ يَعْلَمَهُ اللَّهُ</span>
+            </li>
+            <br>
+            <li>
+              <strong>ک (Kaf):</strong> Suatu tanda untuk menerangkan hukum waqofnya, seperti hukum waqof yang sesudahnya.
+            </li>
+            <br>
+            <li>
+              <strong>س / سكتة (Saktah):</strong> Tanda berhenti sejenak tanpa mengeluarkan napas (tidak bernafas).
+              <br><em>Contoh:</em> <span class="text-arabic">كَلَّا بَلْ ۜ رَانَ عَلَى قُلُوبِهِمْ</span>
+            </li>
+            <br>
+            <li>
+              <strong>۶ (Ruku'):</strong> Tanda pembagian berhenti setiap hari untuk orang yang ingin menghafal Al-Qur'an dalam jangka dua tahun.
+            </li>
+          </ol>
+        </section>
+      </main>
+      <!-- ! Pasal 10 End -->
+
+      <hr class="section-divider">
+
+      <!-- ! Pasal 11: Makhorijul Huruf -->
+      <section>
+        <h1 class="doc-title-section">Makhorijul Huruf</h1>
+
+        <section id="makhorijul-huruf" class="doc-section">
+          <h1 class="doc-title">Tempat-Tempat Keluar Huruf</h1>
+          <p class="doc-text">
+            <strong>Makhorijul Huruf</strong> adalah tempat atau letak keluarnya bunyi huruf hijaiyah. Tempat keluarnya huruf secara umum dibagi menjadi 5 bagian utama:
+          </p>
+          <div class="contoh-box">
+            <ol type="a" class="doc-text" style="padding-left: 20px;">
+              <li><strong>Al-Jauf (<span class="text-arabic">الجَوْف</span>):</strong> Rongga mulut dan tenggorokan (untuk huruf Mad: ا, و, ي).</li>
+              <li><strong>Al-Halq (<span class="text-arabic">الحَلْق</span>):</strong> Tenggorokan (huruf: ء, هـ, ع, ح, غ, خ).</li>
+              <li><strong>Al-Lisan (<span class="text-arabic">اللِّسَان</span>):</strong> Lidah (huruf: ق, ك, ج, ش, ي, ض, ل, ن, ر, ط, د, ت, ص, ز, س, ظ, ذ, ث).</li>
+              <li><strong>Asy-Syafatain (<span class="text-arabic">الشَّفَتَان</span>):</strong> Dua bibir (huruf: ف, و, ب, م).</li>
+              <li><strong>Al-Khaisyum (<span class="text-arabic">الخَيْشُوم</span>):</strong> Rongga hidung (suara dengung/ghunnah).</li>
+            </ol>
+          </div>
+
+            <h3 class="doc-title" style="margin-top: 20px; font-size: 1.2rem;">Rincian Tempat Keluar Huruf</h3>
+          <p class="doc-text">
+            Berdasarkan rincian tempat keluarnya secara spesifik, berikut adalah 12 rincian makhroj huruf:
+          </p>
+
+          <ol class="doc-text" style="padding-left: 20px;">
+            <li><strong>Hamzah (<span class="text-arabic">ء</span>), Ha' (<span class="text-arabic">هـ</span>):</strong> Keluarnya dari kerongkongan sebelah bawah, atas dada.</li>
+            <li><strong>Ain (<span class="text-arabic">ع</span>), Ha (<span class="text-arabic">ح</span>):</strong> Keluarnya dari tengah-tengah kerongkongan.</li>
+            <li><strong>Ghain (<span class="text-arabic">غ</span>), Kha' (<span class="text-arabic">خ</span>):</strong> Keluarnya dari pangkal kerongkongan sebelah atas.</li>
+            <li><strong>Shad (<span class="text-arabic">ص</span>), Zai (<span class="text-arabic">ز</span>), Sin (<span class="text-arabic">س</span>):</strong> Keluarnya dari antara ujung lidah dan ujung gigi sebelah atas bagian bawah.</li>
+            <li><strong>Tha' (<span class="text-arabic">ط</span>), Dal (<span class="text-arabic">د</span>), Ta' (<span class="text-arabic">ت</span>):</strong> Keluarnya dari antara ujung lidah dan pangkal kedua gigi muka sebelah atas.</li>
+            <li><strong>Dhod (<span class="text-arabic">ض</span>), Lam (<span class="text-arabic">ل</span>), Nun (<span class="text-arabic">ن</span>), Ro' (<span class="text-arabic">ر</span>):</strong> Keluarnya dari antara dua tepi lidah (kanan dan kiri) dan antara gusi dan asit gigi atas sebelah muka.</li>
+            <li><strong>Jim (<span class="text-arabic">ج</span>), Syin (<span class="text-arabic">ش</span>), Ya' (<span class="text-arabic">ي</span>):</strong> Keluarnya dari tengah-tengah lidah dan lekuk-lekukan sebelah atas.</li>
+            <li><strong>Dhod (<span class="text-arabic">ض</span>):</strong> Keluarnya dari antara salah satu pinggir lidah sebelah kanan atau kiri dan geraham sebelah atas.</li>
+            <li><strong>Qof (<span class="text-arabic">ق</span>):</strong> Keluarnya dari pangkal lidah bersama-sama dengan mekarnya lekuk-lekukan.</li>
+            <li><strong>Kaf (<span class="text-arabic">ك</span>):</strong> Keluarnya di antara pangkal lidah di bawah makhroj Qof dan lekuk-lekuk sebelah atas.</li>
+            <li><strong>Fa' (<span class="text-arabic">ف</span>):</strong> Keluarnya di antara lapis bibir yang bawah dengan dua gigi depan yang sebelah atas.</li>
+            <li><strong>Wawu (<span class="text-arabic">و</span>), Mim (<span class="text-arabic">م</span>), Ba' (<span class="text-arabic">ب</span>):</strong> Keluarnya di antara dua belah bibir dan sedikit direnggangkan bagi Wawu, sedangkan bagi Mim dan Ba' bibirnya dirapatkan.</li>
+          </ol>
+        </section>
+      </section>
+      <!-- ! Pasal 11 End -->
+
+    </main>
+    <!-- ! Main Content End -->
+  </div>
+  <!-- ! Documentation Layout End -->
+
+  <!-- ! Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <span class="footer-copy">&copy; 2026 BTQ UIN Salatiga. All rights reserved.</span> <span
+        class="footer-separator">|</span>
+      <div class="footer-socials">
+        <a href="https://instagram.com" target="_blank"> <i class="fa-brands fa-instagram"></i> </a> <a
+          href="https://youtube.com" target="_blank"> <i class="fa-brands fa-youtube"></i> </a> <a
+          href="https://whatsapp.com" target="_blank"> <i class="fa-brands fa-whatsapp"></i> </a>
+      </div>
+    </div>
+  </footer>
+  <!-- ! Footer End -->
+
+  <script src="./js/materi.js"></script>
+</body>
+
+</html>

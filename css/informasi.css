@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --primary: #009A44;
+  --primary-dark: #007A35;
+  --bg-light: #fdfdfd;
+  --text-main: #121212;
+  --text-muted: #314158;
+  --border-muted: #45556c40;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-main);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.font-head {
+  font-family: 'Amiri', serif;
+}
+
+/* ! Navbar */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: var(--bg-light);
+  border-bottom: 1px solid var(--border-muted);
+}
+
+.nav-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  border-radius: 0.375rem;
+}
+
+.nav-brand img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  border-radius: 0.375rem;
+  border: 1px solid var(--border-muted);
+  background-color: var(--bg-light);
+  padding: 3px;
+}
+
+.brand-title {
+  font-family: 'Amiri', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-menu a {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-main);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-menu a.active {
+  color: var(--primary);
+}
+
+.nav-mobile a.active {
+  background-color: var(--primary);
+  color: var(--bg-light);
+}
+
+.nav-menu a:hover {
+  color: var(--primary);
+}
+
+.nav-menu a i {
+  color: var(--primary);
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: 1px solid var(--primary);
+  border-radius: 0.375rem;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-dark);
+  font-size: 1.125rem;
+}
+
+.nav-mobile {
+  display: none;
+  border-top: 1px solid var(--primary-dark);
+  background-color: var(--bg-light);
+  padding: 1rem 1.5rem;
+}
+
+.nav-mobile.active {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.nav-mobile a {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-main);
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.nav-mobile a:hover {
+  background-color: var(--primary);
+  color: var(--bg-light);
+}
+
+.nav-mobile a i {
+  color: var(--primary);
+  width: 16px;
+}
+
+.nav-mobile a:hover i {
+  color: var(--bg-light);
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+}
+
+/* ! Navbar End */
+
+.main-content {
+  flex: 1;
+}
+
+/* ! Jadwal Pembelajaran */
+.info-section {
+  padding: 4rem 1.5rem;
+  background-color: var(--bg-light);
+}
+
+.info-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-family: 'Amiri', serif;
+  font-size: 2.05rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  border: 1px solid var(--border-muted);
+  border-radius: 0.375rem;
+  background-color: var(--bg-light);
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.9375rem;
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: 0.6rem 0.875rem;
+  border-bottom: 1px solid var(--border-muted);
+  border-right: 1px solid var(--border-muted);
+}
+
+.schedule-table th:last-child,
+.schedule-table td:last-child {
+  border-right: none;
+}
+
+.schedule-table th {
+  background-color: var(--primary);
+  color: var(--bg-light);
+  font-family: 'Amiri', serif;
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
+.schedule-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.schedule-table td {
+  color: var(--text-main);
+}
+
+/* ! Jadwal Pembelajaran End */
+
+/* ! Pengumunan & Panduan  */
+.info-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.info-card {
+  background-color: var(--bg-light);
+  border: 1px solid var(--border-muted);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card-icon-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  border-bottom: none;
+}
+
+.card-icon-header i {
+  font-size: 1.25rem;
+  color: var(--primary);
+}
+
+.info-card-title {
+  font-family: 'Amiri', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 0;
+}
+
+.announcement-date {
+  font-family: 'Amiri', serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+.announcement-subtitle {
+  font-family: 'Cairo', serif;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.download-subtitle {
+  font-family: 'Cairo', serif;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.btn-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--primary);
+  color: var(--bg-light);
+  padding: 0.625rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 0.375rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  width: fit-content;
+  margin-top: auto;
+}
+
+.btn-download:hover {
+  background-color: var(--primary-dark);
+}
+
+@media (min-width: 768px) {
+  .info-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: stretch;
+  }
+}
+
+/* ! Pengumunan & Panduan End */
+
+
+/* ! FAQ */
+.faq-accordion {
+  max-width: 900px;
+  margin: 1.5rem auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.faq-item {
+  border: 1px solid var(--border-muted);
+  border-radius: 0.5rem;
+  background-color: var(--bg-light);
+  overflow: hidden;
+  transition: border-color 0.2s ease;
+}
+
+.faq-question {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  background: none;
+  border: none;
+  text-align: left;
+  font-family: 'Amiri', serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--text-main);
+  cursor: pointer;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.faq-question:hover {
+  background-color: rgba(0, 154, 68, 0.04);
+}
+
+.faq-item.active .faq-question {
+  color: var(--primary);
+  background-color: rgba(0, 154, 68, 0.04);
+}
+
+.faq-icon {
+  font-size: 0.875rem;
+  color: var(--primary);
+  transition: transform 0.3s ease;
+}
+
+.faq-item.active .faq-icon {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+  padding: 0 1.5rem;
+  background-color: rgba(0, 154, 68, 0.04);
+}
+
+.faq-item.active .faq-answer {
+  padding: 0 1.5rem 1.25rem 1.5rem;
+}
+
+.faq-answer p {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  text-align: justify;
+}
+
+/* ! FAQ End */
+
+/* ! Footer */
+.site-footer {
+  background-color: var(--primary-dark);
+  color: var(--bg-light);
+  padding: 1.5rem 1rem;
+  border-top: 1px solid var(--primary);
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.footer-copy {
+  color: var(--bg-light);
+}
+
+.footer-contact {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--bg-light);
+}
+
+.footer-contact i {
+  color: var(--bg-light);
+}
+
+.footer-separator {
+  color: var(--bg-light);
+  font-weight: 300;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.footer-socials {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.footer-socials a {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: var(--primary);
+  color: var(--bg-light);
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.footer-socials a:hover {
+  background-color: var(--bg-light);
+  color: var(--primary-dark);
+}
+
+@media (max-width: 640px) {
+  .footer-separator {
+    display: none;
+  }
+}
+
+/* ! Footer End */
