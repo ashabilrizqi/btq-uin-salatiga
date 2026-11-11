@@ -342,7 +342,6 @@ header {
   justify-content: space-between;
   text-align: center;
   transition: all 0.2s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
   height: 145px;
 }
 
@@ -351,7 +350,7 @@ header {
   font-family: 'Scheherazade New', serif;
   font-size: 2.85rem;
   font-weight: 700;
-  color: var(--primary);
+  color: var(--text-muted);
   line-height: 1;
   height: 65px;
   width: 100%;
@@ -398,14 +397,14 @@ header {
 }
 
 .harakat-desc strong {
-  color: var(--primary-dark);
+  color: var(--text-main);
 }
 
 .harakat-read {
   display: inline-block;
   margin-top: 0.35rem;
   font-size: 0.8125rem;
-  color: var(--primary-dark);
+  color: var(--text-main);
   font-weight: 600;
 }
 
