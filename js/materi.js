@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+$(function () {
   const menuToggle = document.getElementById('menu-toggle');
   const menuMobile = document.getElementById('menu-mobile');
   const menuIcon = document.getElementById('menu-icon');
@@ -39,12 +39,43 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-
-  const sections = document.querySelectorAll('.doc-section');
+  const includeTargets = $('[data-include]');
+  let loadedCount = 0;
   const sidebarLinks = document.querySelectorAll('.sidebar-link');
 
-  window.addEventListener('scroll', () => {
-    let currentScroll = window.scrollY;
+  includeTargets.each(function () {
+    const $el = $(this);
+    const file = $el.data('include');
+
+    $el.load(file, function (response, status, xhr) {
+      if (status !== 'success') {
+        console.error(`Gagal memuat ${file}:`, xhr.status, xhr.statusText);
+        $el.attr('role', 'alert')
+          .html('<p style="color: red; padding: 1rem;">Materi gagal dimuat. Silakan muat ulang halaman.</p>');
+      }
+
+      loadedCount++;
+
+      // Setelah SEMUA file bagian section selesai dimuat ke dalam DOM
+      if (loadedCount === includeTargets.length) {
+        updateActiveSidebarLink();
+
+        // Jika halaman diakses langsung menggunakan hash link (cth: materi.html#saktah)
+        if (window.location.hash) {
+          const target = document.querySelector(window.location.hash);
+          if (target) {
+            setTimeout(() => {
+              target.scrollIntoView({ behavior: 'smooth' });
+            }, 100);
+          }
+        }
+      }
+    });
+  });
+
+  function updateActiveSidebarLink() {
+    const sections = document.querySelectorAll('.doc-section');
+    const currentScroll = window.scrollY;
 
     sections.forEach((section) => {
       const sectionTop = section.offsetTop - 120;
@@ -53,13 +84,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (currentScroll >= sectionTop && currentScroll < sectionTop + sectionHeight) {
         sidebarLinks.forEach((link) => {
-          link.classList.remove('active');
-          if (link.getAttribute('href') === `#${sectionId}`) {
-            link.classList.add('active');
-          }
+          link.classList.toggle('active', link.getAttribute('href') === `#${sectionId}`);
         });
       }
     });
+  }
+
+  window.addEventListener('scroll', () => {
+    updateActiveSidebarLink();
   });
 
   sidebarLinks.forEach((link) => {
