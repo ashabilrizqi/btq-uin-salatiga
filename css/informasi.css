@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Scheherazade+New:wght@400;500;600;700&display=swap');
 
 :root {
   --primary: #009A44;
@@ -7,6 +7,10 @@
   --text-main: #121212;
   --text-muted: #314158;
   --border-muted: #45556c40;
+  --font-heading: 'Amiri', serif;
+  --font-body: 'Cairo', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+  --font-arabic: 'Scheherazade New', serif;
 }
 
 * {
@@ -16,7 +20,7 @@
 }
 
 body {
-  font-family: 'Cairo', sans-serif;
+  font-family: var(--font-body);
   background-color: var(--bg-light);
   color: var(--text-main);
   display: flex;
@@ -25,7 +29,7 @@ body {
 }
 
 .font-head {
-  font-family: 'Amiri', serif;
+  font-family: var(--font-heading);
 }
 
 /* ! Navbar */
@@ -65,7 +69,7 @@ header {
 }
 
 .brand-title {
-  font-family: 'Amiri', serif;
+  font-family: var(--font-heading);
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--text-main);
@@ -187,7 +191,7 @@ header {
 }
 
 .section-title {
-  font-family: 'Amiri', serif;
+  font-family: var(--font-heading);
   font-size: 2.05rem;
   font-weight: 700;
   color: var(--text-main);
@@ -224,7 +228,7 @@ header {
 .schedule-table th {
   background-color: var(--primary);
   color: var(--bg-light);
-  font-family: 'Amiri', serif;
+  font-family: var(--font-heading);
   font-size: 0.9375rem;
   font-weight: 700;
 }
@@ -272,7 +276,7 @@ header {
 }
 
 .info-card-title {
-  font-family: 'Amiri', serif;
+  font-family: var(--font-heading);
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--text-main);
@@ -280,7 +284,7 @@ header {
 }
 
 .announcement-date {
-  font-family: 'Amiri', serif;
+  font-family: var(--font-heading);
   font-size: 1.125rem;
   font-weight: 700;
   color: var(--text-main);
@@ -289,7 +293,7 @@ header {
 }
 
 .announcement-subtitle {
-  font-family: 'Cairo', serif;
+  font-family: var(--font-body);
   font-size: 0.95rem;
   color: var(--text-muted);
   line-height: 1.6;
@@ -297,7 +301,7 @@ header {
 }
 
 .download-subtitle {
-  font-family: 'Cairo', serif;
+  font-family: var(--font-body);
   font-size: 0.95rem;
   color: var(--text-muted);
   line-height: 1.6;
@@ -361,7 +365,7 @@ header {
   background: none;
   border: none;
   text-align: left;
-  font-family: 'Amiri', serif;
+  font-family: var(--font-heading);
   font-size: 1.125rem;
   font-weight: 700;
   color: var(--text-main);
